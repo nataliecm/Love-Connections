@@ -6,7 +6,7 @@
 define a = Character("Alex")
 define c = Character("Charlie")
 define s = Character("Sam")
-define n = Character("Narrator")
+
 
 # The game starts here.
 
@@ -29,14 +29,16 @@ label start:
     # These display lines of dialogue.
     
 
-    n "Alex and Charlie were hanging out at her house. Charlie suddenly got a phone call"
+    "Alex and Charlie were hanging out at her house. Charlie suddenly got a phone call"
     c "I'll be right back. i need to take this fast."
     a "sure no problem. Just don't take long."
-    n "Sound of something break"
+    "Sound of something break"
     
+    menu :
+    "shuld i investigate the sound?":
+        jump investigate
+    "
     
-    a "Aaaaaaaaaaaaaaaaaaaaa"
-
     # This ends the game
 
 label discovery:
