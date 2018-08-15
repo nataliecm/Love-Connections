@@ -59,9 +59,12 @@ label discovery:
     "Ignore it":
         jump ignore
         
- label tell:
+label tell:
     a "That's it!"
     a "I should probably let someone know about my feelings."
     a "That way, I would have someone to talk to when I need help."
     a "It would also give me a chance to be myself!"
+label secret:
+    a "I don't quite understand these feelings yet."
+    a "I should keep it a scret until it starts to make sense"
     return
