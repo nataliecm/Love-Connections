@@ -80,6 +80,10 @@ label investigate:
     "Alex heart starts beating faster"
     # Alex thought
     "Why am I feeling this way? - Alex"
+    
+    
+label stay:
+    
 
 label discovery:
     
