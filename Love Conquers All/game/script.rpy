@@ -22,9 +22,15 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show alex happy
-    show charlie happy
-    show sam happy
+    show alex happy:
+        xalign: 0.0
+        yalign: 1.0
+    show charlie happy:
+        xalign: 1.0
+        yalign: 1.0
+    show sam happy:
+        xalign: 1.0
+        yalign: 1.0
 
     # These display lines of dialogue.
     # might take away narration and just show the actions in the game if possible if not leave narration
