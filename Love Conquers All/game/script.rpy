@@ -96,11 +96,25 @@ label stay:
     a "What was that?"
     a "Charlie is that you. This isn't funny"
     show sam upset 
-    s "It's not charlie. WOW how could you not remeber me"
+    s "It's not charlie. WOW how could you not remember me"
     s" You know Charlie doesn't live here by herself"
     a "Oh.H...HI sam."
+    "Alex heart started beating fast as he turned to look at sam"
     s "Whatever"
-    "Sam leaves 
+    "Sam leaves irritated"
+    hide sam
+    # alex thought
+    "What's happening? Why am I feeling this way? -Alex"
+    show charlie
+    c "Sorry for taking long"
+    a "No problem. So what do you want to do now?"
+    c "Play video games? oh wait i forgot to tell you that my brother's home but he won't be bothering us"
+    show sam serious
+    s "I think he knows that already"
+    "sam and alex make eye contact"
+    "Alex heart starts beating faster"
+    # Alex thought
+    "What's wrong with me? - Alex"
     
 
 label discovery:
