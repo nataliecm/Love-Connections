@@ -77,13 +77,6 @@ label start:
     "Alex heart starts beating faster"
     # Alex thought
     "Why am I feeling this way? - Alex"
-    
-    
-    
-    
-    
-    
-    # This ends the game
 
 label discovery:
     
@@ -93,17 +86,17 @@ label discovery:
     a "I don't get it!!"
     a "I've known Sam for so long, but yet..."
     a "How come I feel this way??"
+    
     menu:
-    
-    "What should I do?"
-    a "What should I do?"
-    
-    "Tell someone":
-        jump tell
-    "Keep it a secret":
-        jump secret
-    "Ignore it":
-        jump ignore
+        a "What should I do?"
+
+        "Tell someone":
+            jump tell
+        "Keep it a secret":
+            jump secret
+        "Ignore it":
+            jump ignore
+
         
 label tell:
     a "That's it!"
