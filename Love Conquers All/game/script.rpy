@@ -27,7 +27,7 @@ label start:
     show sam happy
 
     # These display lines of dialogue.
-    
+    # might take away narration and just show the actions in the game if possible if not leave narration
 
     "Alex and Charlie were hanging out at her house. Charlie suddenly got a phone call"
     c "I'll be right back. i need to take this fast."
@@ -37,7 +37,51 @@ label start:
     menu :
     "shuld i investigate the sound?":
         jump investigate
-    "
+    "Wait for Charlie to come back":
+        jump stay
+        
+    label investigate:
+    scene bg hallway
+    show worried alex
+    "Alex goes to where the sound is comming from"
+    scene bg roomdoor
+    a "Whose room is this?
+    "alex knocks on the door"
+    "Silence"
+    a "Whose there.Open up"
+    "No answer.Alex decided to open up the room door anyways"
+    scene bg room
+    show scared alex
+    s "BOO!!"
+    a "AAAAAaahhhhhh"
+    "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter"
+    
+    show laughing sam
+    s "You should have seen your face"
+    show angry alex
+    a "Shut UP SAM"
+    hide sam
+    
+    "Alex walked out of the room and back to the living room"
+    scene bg livingroom
+    "Alex heart was beating fast"
+    "alex places a hand on his chest"
+    a "Must be from the scare earlier"
+    show charlie
+    c "what scare?
+    a "Nothing"
+    c "O...Okay. By the way i forgot to tell you that my brother's home but he won't be bothering us"
+    show sam happy
+    s "I think he knows that already"
+    "sam and alex make eye contact"
+    "Alex heart starts beating faster"
+    # Alex thought
+    "Why am I feeling this way? - Alex"
+    
+    
+    
+    
+    
     
     # This ends the game
 
