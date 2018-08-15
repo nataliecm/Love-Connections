@@ -58,7 +58,7 @@ label investigate:
     a "AAAAAaahhhhhh"
     "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter"
     
-    show laughing sam
+    show sam laughing 
     s "HAHAHAHAH"
     s "You should have seen your face"
     show angry alex
