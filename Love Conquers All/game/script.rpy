@@ -43,7 +43,7 @@ label start:
 label investigate:
     scene bg hallway
     show worried alex
-    "Alex goes to where the sound is comming from"
+    "Alex goes to where the sound is coming from"
     scene bg roomdoor
     a "Whose room is this?"
     "Alex knocks on the door"
