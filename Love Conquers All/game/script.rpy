@@ -35,6 +35,15 @@ label start:
     
     a "Aaaaaaaaaaaaaaaaaaaaa"
 
-    # This ends the game.
+    # This ends the game
 
+label discovery:
+    
+    show alex happy
+    
+    "It makes no sense!!!"
+    "I don't get it!!"
+    "I've known Sam for so long, but yet..."
+    "How come I feel this way??"
+    ""
     return
