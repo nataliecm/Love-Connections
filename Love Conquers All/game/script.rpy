@@ -32,24 +32,26 @@ label start:
     "Alex and Charlie were hanging out at her house. Charlie suddenly got a phone call"
     c "I'll be right back. i need to take this fast."
     a "sure no problem. Just don't take long."
-    "Sound of something break"
+    "CRAAAASSHHHHH"
     
     menu :
-    "shuld i investigate the sound?":
-        jump investigate
-    "Wait for Charlie to come back":
-        jump stay
+        "Should I investigate the sound?":
+            jump investigate
+        "Wait for Charlie to come back":
+            jump stay
         
-    label investigate:
+label investigate:
     scene bg hallway
     show worried alex
     "Alex goes to where the sound is comming from"
     scene bg roomdoor
-    a "Whose room is this?
-    "alex knocks on the door"
+    a "Whose room is this?"
+    "Alex knocks on the door"
+    "..."
     "Silence"
-    a "Whose there.Open up"
-    "No answer.Alex decided to open up the room door anyways"
+    a "Whose there? Open up"
+    "No answer. Alex decided to open up the room door anyways"
+    
     scene bg room
     show scared alex
     s "BOO!!"
@@ -57,6 +59,7 @@ label start:
     "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter"
     
     show laughing sam
+    s "HAHAHAHAH"
     s "You should have seen your face"
     show angry alex
     a "Shut UP SAM"
