@@ -45,5 +45,14 @@ label discovery:
     "I don't get it!!"
     "I've known Sam for so long, but yet..."
     "How come I feel this way??"
-    ""
+    "I can't possibly figure this out on my own"
+    menu:
+    
+    "What should I do?"
+    "Tell someone":
+        jump tell:
+    "Keep it a secret":
+        jump secret:
+    "Ignore it":
+        jump ignore:
     return
