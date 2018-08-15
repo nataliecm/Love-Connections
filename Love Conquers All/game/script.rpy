@@ -3,7 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define a = Character("Alex")
+define c = Character("Charlie")
+define s = Character("Sam")
 
 
 # The game starts here.
@@ -14,19 +16,24 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg livingroom
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show happy happy
+    show alex happy
+    show charlie happy
+    show sam happy
 
     # These display lines of dialogue.
+    
 
-    e "You've created a new Ren'Py game."
+    c "aaaaaa"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    s "aaaaaaaaaaa"
+    
+    a "Aaaaaaaaaaaaaaaaaaaaa"
 
     # This ends the game.
 
