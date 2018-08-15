@@ -89,6 +89,19 @@ label investigate:
     
     
 label stay:
+    scene bg livingroom
+    show alex calm
+    a "Must be the wind"
+    "SLAM"
+    show alex scared
+    a "What was that?"
+    a "Charlie is that you. This isn't funny"
+    show sam upset 
+    s "It's not charlie. WOW how could you not remeber me"
+    s" You know Charlie doesn't live here by herself"
+    a "Oh.H...HI sam."
+    s "Whatever"
+    "Sam leaves 
     
 
 label discovery:
