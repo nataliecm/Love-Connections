@@ -41,14 +41,13 @@ label discovery:
     
     show alex happy
     
-    "It makes no sense!!!"
-    "I don't get it!!"
-    "I've known Sam for so long, but yet..."
-    "How come I feel this way??"
-    "I can't possibly figure this out on my own"
+    a "It makes no sense!!!"
+    a "I don't get it!!"
+    a "I've known Sam for so long, but yet..."
+    a "How come I feel this way??"
     menu:
     
-    "What should I do?"
+    a "What should I do?"
     
     "Tell someone":
         jump tell
@@ -56,4 +55,10 @@ label discovery:
         jump secret
     "Ignore it":
         jump ignore
+
+label tell:
+    a "That's it!"
+    a "I should probably let someone know about my feelings."
+    a "That way, I would have someone to talk to when I need help."
+    a "It would also give me a chance to be myself!"
     return
