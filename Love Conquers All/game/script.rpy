@@ -3,6 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+image bg livingroom = "bg_livingroom.jpg"
+
 define a = Character("Alex")
 define c = Character("Charlie")
 define s = Character("Sam")
@@ -23,14 +25,11 @@ label start:
     # directory.
 
     show alex happy:
-        xalign: 0.0
-        yalign: 1.0
+        xalign 0.0
+        yalign 1.0
     show charlie happy:
-        xalign: 1.0
-        yalign: 1.0
-    show sam happy:
-        xalign: 1.0
-        yalign: 1.0
+        xalign 1.0
+        yalign 1.0
 
     # These display lines of dialogue.
     # might take away narration and just show the actions in the game if possible if not leave narration
