@@ -42,7 +42,7 @@ label start:
         
 label investigate:
     scene bg hallway
-    show worried alex
+    show alex worried 
     "Alex goes to where the sound is coming from"
     scene bg roomdoor
     a "Whose room is this?"
@@ -53,7 +53,7 @@ label investigate:
     "No answer. Alex decided to open up the room door anyways"
     
     scene bg room
-    show scared alex
+    show alex scared 
     s "BOO!!"
     a "AAAAAaahhhhhh"
     "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter"
@@ -61,7 +61,7 @@ label investigate:
     show sam laughing 
     s "HAHAHAHAH"
     s "You should have seen your face"
-    show angry alex
+    show alex angry 
     a "Shut UP SAM"
     hide sam
     
@@ -71,7 +71,7 @@ label investigate:
     "alex places a hand on his chest"
     a "Must be from the scare earlier"
     show charlie
-    c "what scare?
+    c "what scare?"
     a "Nothing"
     c "O...Okay. By the way i forgot to tell you that my brother's home but he won't be bothering us"
     show sam happy
