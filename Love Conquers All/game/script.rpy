@@ -49,10 +49,11 @@ label discovery:
     menu:
     
     "What should I do?"
+    
     "Tell someone":
-        jump tell:
+        jump tell
     "Keep it a secret":
-        jump secret:
+        jump secret
     "Ignore it":
-        jump ignore:
+        jump ignore
     return
