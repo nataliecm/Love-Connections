@@ -204,6 +204,7 @@ label tell:
     c "there's nothing wrong with you if you like guys. It won't change who you are"
     c "And based on what you have told me it seem like you like like this boy. Don't hide those feelings and don't be afraid to be you. i will always support you"
     a "Thank you charlie i knew you were the right person to tell"
+    
      # need to write smething that connects to end
     
  
@@ -240,10 +241,24 @@ label tell:
     a "Thank You for changing your mind. But i have something to say I'm homosexual and i like males not females"
     c "I learned that there's nothing wrong with being homosexual because at the end of it all your still the same alex, my best friend for ever."
     c " I hope you forgive me for not being able to understand you and be by you side."
+    # trying to add sam to the story but things aren't going good >_< 
+    # note: please revise later
     "sam walks in the living room where charlie is at"
     a "Thanks for understanding but i will only forgive you if we remain friends like before"
     c "Of course Alex"
-    s "what happened to you and friend"
+    "alex and charlie say goodbye and hang up"
+    s "what happened to you. why so gloomy?"
+    c " i ignored Alex today because he told me that he liked males"
+    show sam shocked
+    s "what's wrong with someone liking the same gender sa themselves"
+    c "I thought it wasn't normal but i understood that it's normal people should be able to love who they love no matter of genders."
+    # when you try to make things funny but end up failing 
+    s "Glad you understood. Also want to hear a fun fact"
+    c "Suurre"
+    s "I'm bisexuaul"
+    c "..."
+    # this is terrible
+    
     
     # need to write smething that connects to end 
    
