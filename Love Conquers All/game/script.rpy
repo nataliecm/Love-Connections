@@ -4,6 +4,7 @@
 # name of the character.
 
 image bg livingroom = "bg_livingroom.jpg"
+image charlie normal = "charlie_normal.png"
 
 define a = Character("Alex")
 define c = Character("Charlie")
@@ -27,7 +28,8 @@ label start:
     show alex happy:
         xalign 0.0
         yalign 1.0
-    show charlie happy:
+    show charlie normal:
+        xzoom 0.35 yzoom 0.35
         xalign 1.0
         yalign 1.0
 
