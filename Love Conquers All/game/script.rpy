@@ -287,6 +287,7 @@ label secret:
     a "H...hi"
     c "whats wrong? you seem nervous"
     a "It's nothing. lets go"
+    
     # i don't know what else to write
 
 
