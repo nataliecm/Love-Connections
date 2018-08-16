@@ -5,6 +5,8 @@
 
 image bg livingroom = "bg_livingroom.jpg"
 image charlie normal = "charlie_normal.png"
+image charlie shock = "charlie_shock.png"
+image charlie grin = "charlie_grin.png"
 
 define a = Character("Alex")
 define c = Character("Charlie")
