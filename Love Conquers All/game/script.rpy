@@ -88,6 +88,10 @@ label investigate:
         yalign 1.0
     c "What scare?"
     a "Nothing"
+    show charlie shock:
+        xzoom 0.35 yzoom 0.35
+        xalign 1.0
+        yalign 1.0
     c "O...Okay. By the way I forgot to tell you that my brother's home but he won't be bothering us."
     show sam happy
     s "I think he knows that already."
