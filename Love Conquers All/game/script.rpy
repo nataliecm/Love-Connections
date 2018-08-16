@@ -287,6 +287,11 @@ label secret:
     a "H...hi"
     c "whats wrong? you seem nervous"
     a "It's nothing. lets go"
+    c "okay. want to hang out at my house today?"
+    a "sure"
+    "time skip"
+    scene bg living room 
+    "Alex and Charlie enter the living room only to find sam sitting on the couch"
     
     # i don't know what else to write
 
