@@ -1,4 +1,4 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -36,67 +36,71 @@ label start:
 
     # These display lines of dialogue.
     # might take away narration and just show the actions in the game if possible if not leave narration
-    " WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US"
+    "WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US!"
     "Alex and Charlie were hanging out at her house. Charlie suddenly got a phone call"
-    c "I'll be right back. i need to take this fast."
-    a "sure no problem. Just don't take long."
+    c "I'll be right back. I need to take this fast."
+    a "Sure, no problem. Just don't take long
+    "Alex was waiting around (being bored out of his mind if I must add) until suddenly..."
     "CRAAAASSHHHHH"
-    
+    show alex shock
+    a "The hell was that???"
+
     menu :
-        "Should I investigate the sound?":
+        "Investigate the sound.":
             jump investigate
-        "Wait for Charlie to come back":
+        "Wait for Charlie to come back.":
             jump stay
-        
+
 label investigate:
     scene bg hallway
-    show alex worried 
-    "Alex goes to where the sound is coming from"
+    show alex worried
+    "Alex goes to where the sound is coming from."
     scene bg roomdoor
+    show alex worried
     a "Whose room is this?"
-    "Alex knocks on the door"
+    "Alex knocks on the door."
     "..."
     "Silence"
-    a "Whose there? Open up"
-    "No answer. Alex decided to open up the room door anyways"
-    
+    a "Whose there? Open up."
+    "No answer. Alex decided to open up the room door anyways."
+
     scene bg room
-    show alex scared 
+    show alex scared
     s "BOO!!"
     a "AAAAAaahhhhhh"
     "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter"
-    
-    show sam laughing 
+
+    show sam laughing
     s "HAHAHAHAH"
     s "You should have seen your face"
-    show alex angry 
-    a "Shut UP SAM"
+    show alex angry
+    a "Shut UP SAM!!"
     hide sam
-    
-    "Alex walked out of the room and back to the living room"
+
+    "Alex walked out of the room and back to the living room."
     scene bg livingroom
-    "Alex heart was beating fast"
-    "alex places a hand on his chest"
-    a "Must be from the scare earlier"
-    show charlie
-    c "what scare?"
+    "Alex heart was beating fast."
+    "He places his hand on his chest."
+    a "Must be from the scare earlier."
+    show charlie shock
+    c "What scare?"
     a "Nothing"
-    c "O...Okay. By the way i forgot to tell you that my brother's home but he won't be bothering us"
+    c "O...Okay. By the way I forgot to tell you that my brother's home but he won't be bothering us."
     show sam happy
-    s "I think he knows that already"
-    "sam and alex make eye contact"
-    "Alex heart starts beating faster"
+    s "I think he knows that already."
+    "Sam and Alex make eye contact"
+    "Alex's heart starts beating faster."
     # Alex thought
-    "Why am I feeling this way? I need to leave but NOW - Alex"
-    a "Sorry but I just remebered that I need something important to do. I guess I'll see you tommorow Charlie"
-    c "It's fine Alex. Text you later"
+    "Why am I feeling this way? I need to leave but NOW - Alex thought"
+    a "Sorry but I just remebered that I need something important to do. I guess I'll see you tommorow Charlie."
+    c "It's fine Alex. Text you later."
     s "Bye Alex"
-    "alex ran home and went to his bedroom"
+    "Alex ran home and went to his bedroom"
     scene bg bedroom
     jump discovery
-    
-    
-    
+
+
+
 label stay:
     scene bg livingroom
     show alex calm
@@ -105,8 +109,8 @@ label stay:
     show alex scared
     a "What was that?"
     a "Charlie, is that you? This isn't funny"
-    show sam upset 
-    s "It's not Charlie." 
+    show sam upset
+    s "It's not Charlie."
     s "WOW how could you not remember me."
     s "You know, Charlie doesn't live here by herself."
     a "Oh.H...HI sam."
@@ -133,12 +137,12 @@ label stay:
     "alex ran home and went to his bedroom"
     scene bg bedroom
     jump discovery
-    
+
 
 label discovery:
-    
+
     show alex worried
-    
+
     a "It makes no sense!!!"
     a "I don't get it!!"
     a "I've known Sam for so long, but yet..."
@@ -146,7 +150,7 @@ label discovery:
     a "Is it possible that I'm..."
     a "no....No....NO!"
     a "That can't be but....... it's not impossible"
-    
+
     menu:
         a "What should I do?"
 
@@ -157,7 +161,7 @@ label discovery:
         "Ignore it":
             jump ignore
 
-        
+
 label tell:
     a "That's it!"
     a "I should probably let someone know about my feelings."
@@ -177,21 +181,21 @@ label tell:
     c "I'm sorry, Alex, but I need to go."
     a "Wait..."
     "Charlie hung up."
-    scene bg living room 
+    scene bg living room
     c "What should I do? I never had a friend whose gay."
     c "What will others think?"
     c "I don't want them to think that I could be lesbian for having a gay friend."
     c "But Alex needs my help and he's my best friend!"
-   
-   menu:
+
+    menu:
         c "What should I do?"
 
         "Try to help Alex and stay friends":
             jump help
         "Stop being friends with Alex":
-            jump ignore him
-        
- label help :
+            jump ignore_him
+
+label help :
     c "I can't leave Alex all alone. I need to be by his side."
     c "But i don't know how to help i will just search up ways to help him"
     "charlie came upon a website called love Connections"
@@ -205,44 +209,44 @@ label tell:
     c "there's nothing wrong with you if you like guys. It won't change who you are"
     c "And based on what you have told me it seem like you like like this boy. Don't hide those feelings and don't be afraid to be you. i will always support you"
     a "Thank you charlie i knew you were the right person to tell"
-    
+
      # need to write smething that connects to end
-    
- 
- 
- 
- label ignore him :
+
+
+
+
+label ignore_him :
     scene bg bedroom
-    show alex sad/crying 
+    show alex sad/crying
     a "What should i do now she just hung up on me"
     scene bg livingroom
     c "Im sorry alex but i was taught that that's wrong. Everything would have been good if you said you had feeling for a girl not guy"
     "Next morning"
     scene bg school
     show alex happy
-    "i see charlie putting her things in her locker - alex"
-    a "HEY charlie"
+    "I see charlie putting her things in her locker - alex"
+    a "Hey Charlie"
     a "i need to talk  to you"
-    c "oh. It's you. See I don't have time to listen to you. Also i don't think this friendhip is going to last so we should make new friends and also pretend you don't know me if you see me in the hallways" 
+    c "oh. It's you. See I don't have time to listen to you. Also i don't think this friendhip is going to last so we should make new friends and also pretend you don't know me if you see me in the hallways"
     "Alex eyes became watery"
     "Does she hate me for having feelings for a guy -Alex"
-    "Was i to harsh on him? he's probably alone. but how do I understand him?
+    "Was I to harsh on him? he's probably alone. but how do I understand him?"
     "Afternoon"
-    "charlie was browsing through the internet"
+    "Charlie was browsing through the internet."
     c "Love Connection?"
     c "Is this a dating site? i'm going to check it out"
     c "what do they mean by closet doors closed. what's this?"
     "charlie clicks on the closet doors"
     c "A time to open the closet doors? This isn't for me but it may help me understand alex"
     c "let's check the parential guide"
-     "Parental Guide: Advice from other parents , I think my child is ___, Forums to help parents"
+    "Parental Guide: Advice from other parents , I think my child is ___, Forums to help parents"
     c "I think I'll read the advice from other parents . even though i'm not his parent it should be helpful advice"
     "Charlie finished reading the article and picks up her phone and dials a phone number"
     c "Alex. I'm sorry for ignoring you. i should have listen to you"
     a "Thank You for changing your mind. But i have something to say I'm homosexual and i like males not females"
     c "I learned that there's nothing wrong with being homosexual because at the end of it all your still the same alex, my best friend for ever."
     c " I hope you forgive me for not being able to understand you and be by you side."
-    # trying to add sam to the story but things aren't going good >_< 
+    # trying to add sam to the story but things aren't going good >_<
     # note: please revise later
     "sam walks in the living room where charlie is at"
     a "Thanks for understanding but i will only forgive you if we remain friends like before"
@@ -250,19 +254,19 @@ label tell:
     "alex and charlie say goodbye and hang up"
     s "what happened to you. why so gloomy?"
     c " i ignored Alex today because he told me that he liked males"
-    show sam shocked
+    show sam shock
     s "what's wrong with someone liking the same gender sa themselves"
     c "I thought it wasn't normal but i understood that it's normal people should be able to love who they love no matter of genders."
-    # when you try to make things funny but end up failing 
+    # when you try to make things funny but end up failing
     s "Glad you understood. Also want to hear a fun fact"
     c "Suurre"
     s "I'm bisexuaul"
     c "..."
     # this is terrible
-    
-    
-    # need to write smething that connects to end 
-   
+
+
+    # need to write smething that connects to end
+
 
 label secret:
     a "I don't quite understand these feelings yet."
@@ -270,19 +274,19 @@ label secret:
     a "What happens if they think my feelings aren't normal. Yep. keeping it a secret is for the best"
     "next morning"
     scene bg school
-    show charlie happy 
+    show charlie happy
     c "Hello alex"
     show alex worried
     a "H...hi"
     c "whats wrong? you seem nervous"
     a "It's nothing. lets go"
     # i don't know what else to write
-    
-    
-    
-  
-    
-label ignore it :
+
+
+
+
+
+label ignore :
     a "These feelings just happened today, probably tommorow they will be gone"
     a "Feelings come and go"
     "Next day"
@@ -290,4 +294,3 @@ label ignore it :
     a "A guy liking a guy is wrong"
     a " why am i not normal"
     # i don't know what else to write
-    
