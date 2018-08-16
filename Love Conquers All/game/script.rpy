@@ -104,30 +104,32 @@ label stay:
     "SLAM"
     show alex scared
     a "What was that?"
-    a "Charlie is that you. This isn't funny"
+    a "Charlie, is that you? This isn't funny"
     show sam upset 
-    s "It's not charlie. WOW how could you not remember me"
-    s" You know Charlie doesn't live here by herself"
+    s "It's not Charlie." 
+    s "WOW how could you not remember me."
+    s "You know, Charlie doesn't live here by herself."
     a "Oh.H...HI sam."
-    "Alex heart started beating fast as he turned to look at sam"
+    "Alex heart started beating fast as he turned to look at Sam."
     s "Whatever"
-    "Sam leaves irritated"
+    "Sam leaves irritated."
     hide sam
     # alex thought
-    "What's happening? Why am I feeling this way? -Alex"
-    show charlie
-    c "Sorry for taking long"
+    "What's happening? Why am I feeling this way? -Alex thought"
+    show charlie normal
+    c "Sorry for taking long."
     a "No problem. So what do you want to do now?"
-    c "Play video games? oh wait i forgot to tell you that my brother's home but he won't be bothering us"
+    c "Play video games? Oh wait, I forgot to tell you that my brother's home but he won't be bothering us."
     show sam serious
-    s "I think he knows that already"
+    s "I think he knows that already."
     "sam and alex make eye contact"
-    "Alex heart starts beating faster"
+    "Alex's heart starts beating faster."
     # Alex thought
-    "What's wrong with me? - Alex"
-    a "Sorry but I just remebered that I need something important to do. I guess I'll see you tommorow Charlie"
-    c "It's fine Alex. Text you later"
-    s "Bye Alex"
+    "What's wrong with me? - Alex thought"
+    a "Sorry, but I just remebered that I need something important to do. I guess I'll see you tommorow Charlie."
+    show charlie grin
+    c "It's fine, Alex. Text you later!!"
+    s "Bye Alex."
     "alex ran home and went to his bedroom"
     scene bg bedroom
     
@@ -140,7 +142,9 @@ label discovery:
     a "I don't get it!!"
     a "I've known Sam for so long, but yet..."
     a "How come I feel this way??"
-    a "Is it possible that I'm...NO NO no that can't be but its not impossible"
+    a "Is it possible that I'm..."
+    a "no....No....NO!"
+    a "That can't be but....... it's not impossible"
     
     menu:
         a "What should I do?"
@@ -158,27 +162,28 @@ label tell:
     a "I should probably let someone know about my feelings."
     a "That way, I would have someone to help me figure out whats wrong."
     a "It would also give me a chance figure out who I really am!"
-    "alex grabbed his phone"
-    a "hello Charlie, I..I need your help. I'm lost"
+    "Alex grabbed his phone."
+    a "Hello Charlie, I..I need your help. I'm lost."
     c "How can you be lost don't you remember where you live? Tell me the street.."
-    a "No that's not what I meant. I'M CONFUSED WITH MY FEELING"
-    c "uh.ok. But calm down and what do you mean your feelings"
-    a "Sorry about that. But anyways today I saw this guy and when our eyes met my heart started beating fast. i don't know what's wrong"
+    a "No that's not what I meant. I'M CONFUSED WITH MY FEELINGS!!"
+    c "Uh, ok. But calm down."
+    c "And what do you mean your feelings?"
+    a "Sorry about that. But anyways, today I saw this guy and when our eyes met my heart started beating fast. I don't know what's wrong."
     c "..."
     a "hello?"
-    c "um. Do you possibly have a thing for guys. i thought you liked girls?"
-    a " I don't know. I never felt this way before for anyone"
-    c "i'm sorry charlie but i need to go"
+    c "Um... Do you possibly have a thing for guys? I thought you liked girls?"
+    a "I don't know... I never felt this way before for anyone."
+    c "I'm sorry, Alex, but I need to go."
     a "Wait..."
-    "Charlie hung up"
+    "Charlie hung up."
     scene bg living room 
-    c "What should i do? i never had a friend whose gay"
-    c "what will others think"
-    c "I don't want them to think that i could be lesbian for having a gay friend"
-    c "But Alex needs my help and he's my best friend"
+    c "What should I do? I never had a friend whose gay."
+    c "What will others think?"
+    c "I don't want them to think that I could be lesbian for having a gay friend."
+    c "But Alex needs my help and he's my best friend!"
    
    menu:
-        a "What should I do?"
+        c "What should I do?"
 
         "Try to help Alex and stay friends":
             jump help
@@ -186,7 +191,7 @@ label tell:
             jump ignore him
         
  label help :
-    c "I can't leave alex all alone. I need to be by his side"
+    c "I can't leave Alex all alone. I need to be by his side."
     c "But i don't know how to help i will just search up ways to help him"
     "charlie came upon a website called love Connections"
     "Parental Guide: Advice from other parents , I think my child is ___, Forums to help parents"
