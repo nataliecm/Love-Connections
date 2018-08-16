@@ -1,0 +1,102 @@
+body{
+  background-color: #df6bed;
+}
+h1{
+ font-family: 'Creepster', cursive;
+ font-size: 35px;
+}
+h3{
+  color: white;
+}
+#header{
+ text-align: center;
+ border-style: solid;
+ border-width: 5px;
+ background-color: black;
+ width:2000px;
+}
+#door{
+ width:60px;
+}
+#up{
+ display: flex;
+}
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+/*#menu{
+   background-image: url("http://pngimg.com/uploads/door/door_PNG17583.png") no-repeat;
+   height: 70px;
+   width: 120px;
+}
+#menu:hover {
+
+   content: url("https://webiconspng.com/wp-content/uploads/2017/09/Door-PNG-Image-42697.png");
+   height: 140px;
+   width: 120px;
+}*/
+h2{
+ text-align:center;
+ font-family: 'Amatic SC', cursive;
+ font-size: 30px;
+ text-decoration: line-through;
+}
+p{
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+.title{
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline overline;
+  color: yellow;
+}
+a{
+  color: white;
+}
+.dropbtn {
+    /*background-color: #4CAF50;
+    color: white;*/
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+  /*background-color: #3e8e41;*/
+
+  height: 140px;
+  width: 120px;}
