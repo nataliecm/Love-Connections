@@ -39,7 +39,7 @@ label start:
     "WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US!"
     "Alex and Charlie were hanging out at her house. Charlie suddenly got a phone call"
     c "I'll be right back. I need to take this fast."
-    a "Sure, no problem. Just don't take long
+    a "Sure, no problem. Just don't take long."
     "Alex was waiting around (being bored out of his mind if I must add) until suddenly..."
     "CRAAAASSHHHHH"
     show alex shock
