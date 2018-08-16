@@ -82,7 +82,10 @@ label investigate:
     "Alex heart was beating fast."
     "He places his hand on his chest."
     a "Must be from the scare earlier."
-    show charlie shock
+    show charlie shock:
+        xzoom 0.35 yzoom 0.35
+        xalign 1.0
+        yalign 1.0
     c "What scare?"
     a "Nothing"
     c "O...Okay. By the way I forgot to tell you that my brother's home but he won't be bothering us."
