@@ -93,7 +93,7 @@ label investigate:
     s "Bye Alex"
     "alex ran home and went to his bedroom"
     scene bg bedroom
-    
+    jump discovery
     
     
     
@@ -132,6 +132,7 @@ label stay:
     s "Bye Alex."
     "alex ran home and went to his bedroom"
     scene bg bedroom
+    jump discovery
     
 
 label discovery:
