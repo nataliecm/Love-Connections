@@ -228,8 +228,8 @@ label tell:
     "Afternoon"
     "charlie was browsing through the internet"
     c "Love Connection?"
-    c "Is this a dating site? i'm going to chec it out"
-    c "what closet doors closed while loading. what's this"
+    c "Is this a dating site? i'm going to check it out"
+    c "what do they mean by closet doors closed. what's this?"
     "charlie clicks on the closet doors"
     c "A time to open the closet doors? This isn't for me but it may help me understand alex"
     c "let's check the parential guide"
@@ -239,23 +239,29 @@ label tell:
     c "Alex. I'm sorry for ignoring you. i should have listen to you"
     a "Thank You for changing your mind. But i have something to say I'm homosexual and i like males not females"
     c "I learned that there's nothing wrong with being homosexual because at the end of it all your still the same alex, my best friend for ever."
-    c "hope you forgive me and for not being able to understand you and be by you side."
-    # need to write smething that connects to end
+    c " I hope you forgive me for not being able to understand you and be by you side."
+    "sam walks in the living room where charlie is at"
+    a "Thanks for understanding but i will only forgive you if we remain friends like before"
+    c "Of course Alex"
+    s "what happened to you and friend"
     
+    # need to write smething that connects to end 
+   
 
 label secret:
     a "I don't quite understand these feelings yet."
     a "I should keep it a scret until it starts to make sense"
-    a "What happens if they think my feeling aren't normal. Yep. keeping it a secret is for the best"
+    a "What happens if they think my feelings aren't normal. Yep. keeping it a secret is for the best"
     "next morning"
     scene bg school
     show charlie happy 
-     c "Hello alex"
+    c "Hello alex"
     show alex worried
     a "H...hi"
     c "whats wrong? you seem nervous"
     a "It's nothing. lets go"
     # i don't know what else to write
+    
     
     
   
