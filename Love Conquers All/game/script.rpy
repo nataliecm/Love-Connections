@@ -19,8 +19,7 @@ label start:
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-# WARNING, THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US
+    # images directory to show it
     scene bg livingroom
 
     # This shows a character sprite. A placeholder is used, but you can
@@ -37,7 +36,7 @@ label start:
 
     # These display lines of dialogue.
     # might take away narration and just show the actions in the game if possible if not leave narration
-
+    " WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US"
     "Alex and Charlie were hanging out at her house. Charlie suddenly got a phone call"
     c "I'll be right back. i need to take this fast."
     a "sure no problem. Just don't take long."
