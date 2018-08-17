@@ -292,6 +292,19 @@ label secret:
     "time skip"
     scene bg living room 
     "Alex and Charlie enter the living room only to find sam sitting on the couch"
+    s "sup guys"
+    a and c "hi sam"
+    "alex heart began beating fast"
+    # Alex thought
+    " What's wrong with me? Is it possible that i like sam? - Alex"
+    s "Alex are you okay?"
+    "sam stood up and went to Alex and put his hand on alex forehead"
+    s "Just making sure that your not sick or anything"
+    a "I said I'M FINE"
+    s "O..OK"
+    "
+    
+    
     
     # i don't know what else to write
 
