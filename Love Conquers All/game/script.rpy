@@ -67,7 +67,7 @@ label investigate:
 
     scene bg room
     show alex scared
-    s "BOO!!"
+    s "{b}BOO!!{/b}"
     a "AAAAAaahhhhhh"
     "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter"
 
@@ -113,13 +113,13 @@ label stay:
     scene bg livingroom
     show alex calm
     a "Must be the wind"
-    "SLAM" with vpunch
+    "{b}SLAM{/b}" with vpunch
     show alex scared
     a "What was that?"
     a "Charlie, is that you? This isn't funny"
     show sam upset
     s "It's not Charlie."
-    s "WOW how could you not remember me."
+    s "{b}WOW{/b} how could you not remember me."
     s "You know, Charlie doesn't live here by herself."
     a "Oh.H...HI sam."
     "Alex heart started beating fast as he turned to look at Sam."
@@ -317,14 +317,14 @@ label secret:
     a "Sam can you open up? I need to tell you something"
     "..."
     # you can change the positions of the character since they are always standing and their face expression is the only thing that change.
-    "Alex decided to open the door anyways and saw sam laying in bed
+    "Alex decided to open the door anyways and saw sam laying in bed"
     "Alex heart was beating faster at the sight of sam"
     s "Did i say to come in?(cold TONE)"
     A "no. But i came to apologize for raising my voice at you"
     s "ok. You can go now"
     "Alex heart felt hurt"
     "Alex left sam's room and went to the living room"
-    c " what happened did he accept your apology?
+    c " what happened did he accept your apology?"
     a "um...i not feeling good. I'm just going to go home"
     "Alex just left charlie's house"
     c "That was weird"
@@ -351,6 +351,7 @@ label letter:
     a "Writing my name is wayyyyy too embarasing!!"
     "Alex hastily erased his name and replaced it with..."
     "\"Sincerely, A fellow coffe drinker\""
+    a "Hope for the best"
     
     
     
