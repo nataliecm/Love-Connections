@@ -450,7 +450,7 @@ label say:
     s "Kind of like you ;)"
     "Alex's face turns completly red."
     "Good end."
-    
+    return
     
     
     
@@ -473,3 +473,10 @@ label ignore :
     a "A guy liking a guy is wrong"
     a " why am i not normal"
     # i don't know what else to write
+    menu:
+        a "What should I do?"
+        
+        "Keep it in":
+            jump keep_it_in
+        "Let it go (like Elsa)":
+            jump elsa
