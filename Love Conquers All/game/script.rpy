@@ -158,7 +158,6 @@ label discovery:
     a "Is it possible that I'm..."
     a "no....No....NO!"
     a "That can't be but....... it's not impossible"
-
     menu:
         a "What should I do?"
 
@@ -217,8 +216,15 @@ label help:
     c "there's nothing wrong with you if you like guys. It won't change who you are"
     c "And based on what you have told me it seem like you like like this boy. Don't hide those feelings and don't be afraid to be you. i will always support you"
     a "Thank you charlie i knew you were the right person to tell"
-    c "Just be true to your feelings"
-    a "Thanks charlie"
+    c "Just be true to your feelings, alright?
+    c "And by the way..."
+    menu:
+        c "Who is the guy you like?"
+    
+        "Tell her the truth:
+            jump truth
+        "Tell her a lie"
+            jump lie
     
 
      # need to write smething that connects to end
@@ -412,7 +418,12 @@ label say:
     
     
     
-    
+    s "Alex, I like gals."
+    a "I'm such an idiot! I knew that this wouldn't work out..."
+    s "...{i}aaand{/i} guys"
+    s "Kind of like you ;)"
+    "Alex's face turns completly red."
+    "Good end."
     
     
     
