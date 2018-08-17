@@ -35,10 +35,23 @@ label start:
         yalign 1.0
 
     # These display lines of dialogue.
-    # might take away narration and just show the actions in the game if possible if not leave narration
-    "WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US!"
-    "THIS WAS NOT INTENDED TO SOUND LIKE A FANFICTION BUT WE CAN'T CONTROL HOW THINGS TURN OUT"
-    "Alex and Charlie were hanging out at her house. Charlie suddenly got a phone call"
+    # Might take away narration and just show the actions in the game if possible if not leave narration
+    "**WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US!**"
+    "**THIS WAS NOT INTENDED TO SOUND LIKE A FANFICTION, BUT WE CAN'T CONTROL HOW THINGS TURN OUT**"
+    "It was a regular Saturday afternoon when Alex and Charlie were hanging out at her house."
+    "Until suddenly..."
+    "{i}Brrrrrrrriiiiiing{/i}"
+    "{i}Brrrriing Brrrrrring{/i}"
+    a "Awe..."
+    a "Turn off your phone, we just got here. The call can't be {b}that{/b} important"
+    c "Of course! I'm promised that we could hangout anyway."
+    "..."
+    "......"
+    "........."
+    "{i}Brrrrrring{/i}"
+    a "Maybe if we ignore it, they'll give up."
+    "..."
+    "{b}BRRRRRRRRIIIIIIIINNNNNGGGG{/b}"
     c "I'll be right back. I need to take this fast."
     a "Sure, no problem. Just don't take long."
     "Alex was waiting around (being bored out of his mind if I must add) until suddenly..."
@@ -55,24 +68,25 @@ label start:
 label investigate:
     scene bg hallway
     show alex worried
-    "Alex goes to where the sound is coming from."
+    "Alex goes to the origin of the sound."
     scene bg roomdoor
     show alex worried
     a "Whose room is this?"
     "Alex knocks on the door."
     "..."
     "Silence"
-    a "Whose there? Open up."
-    "No answer. Alex decided to open up the room door anyways."
+    a "Whose there? Open up!"
+    "No answer."
+    "Alex decided to open up the room door anyways."
 
     scene bg room
     show alex scared
     s "{b}BOO!!{/b}"
     a "AAAAAaahhhhhh"
-    "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter"
+    "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter."
 
     show sam laughing
-    s "HAHAHAHAH"
+    s "AHAHAHAHAH"
     s "You should have seen your face"
     show alex angry
     a "Shut UP SAM!!"
@@ -89,17 +103,17 @@ label investigate:
         yalign 1.0
     c "What scare?"
     a "Nothing"
-    show charlie:
+    show charlie normal:
         xzoom 0.35 yzoom 0.35
         xalign 1.0
-        yalign 1.0
-    c "O...Okay. By the way I forgot to tell you that my brother's home but he won't be bothering us."
+        yalign 1.0 
+    c "O...Okay. By the way, I forgot to tell you that my brother's home but he won't be bothering us."
     show sam happy
     s "I think he knows that already."
     "Sam and Alex made eye contact"
     "Alex's heart starts beating faster."
     # Alex thought
-    "Why am I feeling this way? I need to leave but NOW - Alex thought"
+    "{i}Why am I feeling this way? I need to leave but NOW{/i} - Alex thought"
     a "Sorry but I just remebered that I need something important to do. I guess I'll see you tommorow Charlie."
     c "It's fine Alex. Text you later."
     s "Bye Alex"
@@ -127,10 +141,13 @@ label stay:
     "Sam leaves irritated."
     hide sam
     # alex thought
-    "What's happening? Why am I feeling this way? -Alex thought"
-    show charlie normal
+    "{i}What's happening? Why am I feeling this way?{/i} - Alex thought"
+    show charlie normal:
+        xzoom 0.35 yzoom 0.35
+        xalign 1.0
+        yalign 1.0
     c "Sorry for taking long."
-    a "No problem. So what do you want to do now?"
+    a "No problem. So, what do you want to do now?"
     c "Play video games? Oh wait, I forgot to tell you that my brother's home but he won't be bothering us."
     show sam serious
     s "I think he knows that already."
@@ -182,7 +199,7 @@ label tell:
     c "And what do you mean your feelings?"
     a "Sorry about that. But anyways, today I saw this guy and when our eyes met my heart started beating fast. I don't know what's wrong."
     c "..."
-    a "hello?"
+    a "Hello?"
     c "Um... Do you possibly have a thing for guys? I thought you liked girls?"
     a "I don't know... I never felt this way before for anyone."
     c "I'm sorry, Alex, but I need to go."
@@ -204,18 +221,27 @@ label tell:
 
 label help:
     c "I can't leave Alex all alone. I need to be by his side."
-    c "But i don't know how to help i will just search up ways to help him"
-    "charlie came upon a website called love Connections"
-    "Parental Guide: Advice from other parents , I think my child is ___, Forums to help parents"
-    c "I think I'll read the advice from other parents . even though i'm not his parent it should be helpful advice"
+    c "But I don't know how to help..."
+    c "Well, time to go to the wisest thing I know."
+    c "The internet!"
+    "Charlie came upon a website called \"Love Connections\""
+    "Parental Guide: Advice from other parents, I think my child is ___, Forums to help parents"
+    c "I think I'll read the advice from other parents. It may contain something useful."
+    c "I am practically his parent anyway. I woke him up that one day during the exams."
+    "..."
     "Charlie finished reading the article and picks up her phone and dials a phone number"
-    c "Alex. I'm sorry for not letting you finish earlier and not listening to you. i know it hard for you right now but you can trust me and be by your side"
-    "Wow. That article affected me alot. haha starting to talk like a grown up - Charlie"
-    a "Thank You. i still not sure if i'm gay or or not"
-    c "I was going to say to follow you heart but it seems your heart and brain are debating"
-    c "there's nothing wrong with you if you like guys. It won't change who you are"
-    c "And based on what you have told me it seem like you like like this boy. Don't hide those feelings and don't be afraid to be you. i will always support you"
-    a "Thank you charlie i knew you were the right person to tell"
+    c "Alex. I'm sorry for not letting you finish earlier and not listening to you. I know it hard for you right now but you can trust me and be by your side."
+    "{i}Wow. That article affected me a lot. Haha starting to talk like a grown up{/i} - thought Charlie"
+    a "Thank You."
+    a "Everything is still rather confusing though. I think I'm into guys, but I'm not sure yet..."
+    c "I was going to say to follow you heart, but it seems your heart and brain are debating."
+    a "Yeah, I guess you're right. Haha."
+    c "Anyway, there's nothing wrong with you if you like guys. It won't change who you are."
+    c "And based on what you have told me it seem like you {i}like like{/i} this guy."
+    a "D-don't say it like that! It's not confirmed yet..."
+    c "mmmhm"
+    c "Don't hide those feelings and don't be afraid to be you. I'll be on the sidelines cheering you on!"
+    a "Thank you, Charlie. I knew you were the right person to tell"
     c "Just be true to your feelings, alright?
     c "And by the way..."
     menu:
@@ -235,7 +261,7 @@ label help:
 label ignore_him :
     scene bg bedroom
     show alex cry
-    a "What should i do now she just hung up on me"
+    a "What should I do now she just hung up on me"
     scene bg livingroom
     c "Im sorry alex but i was taught that that's wrong. Everything would have been good if you said you had feeling for a girl not guy"
     "Next morning"
