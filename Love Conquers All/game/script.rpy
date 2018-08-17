@@ -42,7 +42,7 @@ label start:
     c "I'll be right back. I need to take this fast."
     a "Sure, no problem. Just don't take long."
     "Alex was waiting around (being bored out of his mind if I must add) until suddenly..."
-    "CRAAAASSHHHHH"
+    "CRAAAASSHHHHH" with vpunch
     show alex shock
     a "The hell was that???"
 
@@ -113,7 +113,7 @@ label stay:
     scene bg livingroom
     show alex calm
     a "Must be the wind"
-    "SLAM"
+    "SLAM" with vpunch
     show alex scared
     a "What was that?"
     a "Charlie, is that you? This isn't funny"
@@ -301,7 +301,6 @@ label secret:
     "Alex and Charlie enter the living room only to find sam sitting on the couch"
     s "sup guys"
     a and c "hi sam"
-    "Alex heart began beating fast"
     "Alex face began to turn red"
     # Alex thought
     " What's wrong with me? Is it possible that i like sam? - Alex"
@@ -311,7 +310,6 @@ label secret:
     a "I said I'M FINE"
     s "O..OK"
     "sam left and went to his room"
-    c "wow alex, calm the hell down. Did Sam do anything to you?"
     a "No i'm sorry"
     c "I'm not the one you should be apologizing to"
     a "ok. i'll be right back"
@@ -326,7 +324,35 @@ label secret:
     s "ok. You can go now"
     "Alex heart felt hurt"
     "Alex left sam's room and went to the living room"
-    c "
+    c " what happened did he accept your apology?
+    a "um...i not feeling good. I'm just going to go home"
+    "Alex just left charlie's house"
+    c "That was weird"
+    scene bg bedroom
+    a "should i tell sam how I feel, yeah probably that would be for the best"
+    
+   
+    menu:
+        a "What should I do?"
+
+        "Write sam a letter and make it annoymous":
+            jump letter
+        "Tell sam how i feel in person":
+            jump say
+            
+label letter:
+    "\"Dear Sam,\""
+    "\"I've known you for a while now, but recently I've been developing feelings for you.\""
+    "\"As of now, I don't quite understand why I feel this way for a giant prick.\""
+    "\"But, I hope to cope wihtour concequence by sneding this letter.\""
+    "\"If you feel the same, that'll be great!\""
+    "\"However, I doubt that you'll fall in love with someone like me.\""
+    "\"Sincerely Alex\""
+    a "Writing my name is wayyyyy too embarasing!!"
+    "Alex hastily erased his name and replaced it with..."
+    "\"Sincerely, A fellow coffe drinker\""
+    
+    
     
     
     
