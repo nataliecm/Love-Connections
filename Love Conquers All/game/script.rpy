@@ -89,14 +89,14 @@ label investigate:
         yalign 1.0
     c "What scare?"
     a "Nothing"
-    show charlie shock:
+    show charlie:
         xzoom 0.35 yzoom 0.35
         xalign 1.0
         yalign 1.0
     c "O...Okay. By the way I forgot to tell you that my brother's home but he won't be bothering us."
     show sam happy
     s "I think he knows that already."
-    "Sam and Alex make eye contact"
+    "Sam and Alex made eye contact"
     "Alex's heart starts beating faster."
     # Alex thought
     "Why am I feeling this way? I need to leave but NOW - Alex thought"
@@ -203,7 +203,7 @@ label tell:
         "Stop being friends with Alex":
             jump ignore_him
 
-label help :
+label help:
     c "I can't leave Alex all alone. I need to be by his side."
     c "But i don't know how to help i will just search up ways to help him"
     "charlie came upon a website called love Connections"
@@ -217,6 +217,9 @@ label help :
     c "there's nothing wrong with you if you like guys. It won't change who you are"
     c "And based on what you have told me it seem like you like like this boy. Don't hide those feelings and don't be afraid to be you. i will always support you"
     a "Thank you charlie i knew you were the right person to tell"
+    c "Just be true to your feelings"
+    a "Thanks charlie"
+    
 
      # need to write smething that connects to end
 
@@ -348,10 +351,71 @@ label letter:
     "\"If you feel the same, that'll be great!\""
     "\"However, I doubt that you'll fall in love with someone like me.\""
     "\"Sincerely Alex\""
-    a "Writing my name is wayyyyy too embarasing!!"
+    a "Writing my name is wayyyyy too embarrassing!!"
     "Alex hastily erased his name and replaced it with..."
     "\"Sincerely, A fellow coffe drinker\""
-    a "Hope for the best"
+    a "This is good enough"
+    "Next day"
+    a "This letter is cappable of ruinig my life"
+    a "But it's all for sam"
+    
+    
+    
+    
+    
+    
+    
+label say:
+    a "I think  telling him my feelings in peron would show him that i reaaly mean it"
+    a "but what happens if he rejects me or worst makes fun of me"
+    a "ALEX STOP BEING SUCH A CHICKEN YOU GOT THIS"
+    "Next Morning"
+    scene bg school
+    "Alex just tell him your feelings what's the worst that can happen -alex"
+    "charlie runs behind alex"
+    c "HHII"
+    a"AAAAAaaaaahhhh"
+    c "it's just me"
+    a "Hi charlie"
+    "sam comes up behind them"
+    s "sup guys. CHARLIE I TOLD YOU TO WAIT FOR ME"
+    c "sorry probably NEXT TIME HURRY THE HELL UP"
+    a "we should get to class,people are starring"
+    "End of school"
+    a"Geez,charlie where are you?"
+    "sam was walking behind charlie"
+    s "She said she had something important to do but she will catch us later."
+    a "what do you mean by us?"
+    s "She said to wait for her at home she wants to tell you something"
+    a "ok but before we go i must tell you something"
+    s "suuurre"
+    a " You see..."
+    a "umm...I have feelings..."
+    s "Don't we all have feelings"
+    a "no..yeah... that's not what I meant"
+    a " I..I think I li..like y..ou"
+    a "My heart it wants to burst out at the sight of you"
+    "sam face began to turn red"
+    sam "..."
+    a "You don't have to like me back. I need to go"
+    "alex ran away as fast as he could home"
+    scene bg bedroom
+    "That was humiliating. he didn't even say a word or stoped me from leaving -alex"
+    scene bg school
+    "What he likes me? But how? -sam"
+    c "SSSAAAMMM"
+    "charlie came running to sam"
+    c "hey why are you still here and where's alex"
+    s "I decided to wait for you and he had to leave"
+    c "okay let's go home then"
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
