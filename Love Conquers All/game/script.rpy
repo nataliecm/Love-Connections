@@ -37,6 +37,7 @@ label start:
     # These display lines of dialogue.
     # might take away narration and just show the actions in the game if possible if not leave narration
     "WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US!"
+    "THIS WAS NOT INTENDED TO SOUND LIKE A FANFICTION BUT WE CAN'T CONTROL HOW THINGS TURN OUT"
     "Alex and Charlie were hanging out at her house. Charlie suddenly got a phone call"
     c "I'll be right back. I need to take this fast."
     a "Sure, no problem. Just don't take long."
@@ -224,7 +225,7 @@ label help :
 
 label ignore_him :
     scene bg bedroom
-    show alex sad/crying
+    show alex cry
     a "What should i do now she just hung up on me"
     scene bg livingroom
     c "Im sorry alex but i was taught that that's wrong. Everything would have been good if you said you had feeling for a girl not guy"
@@ -237,7 +238,7 @@ label ignore_him :
     c "oh. It's you. See I don't have time to listen to you. Also i don't think this friendhip is going to last so we should make new friends and also pretend you don't know me if you see me in the hallways"
     "Alex eyes became watery"
     "Does she hate me for having feelings for a guy -Alex"
-    "Was I to harsh on him? he's probably alone. but how do I understand him?"
+    "Was I to harsh on him? he's probably alone. but how do I understand him? -Charlie"
     "Afternoon"
     "Charlie was browsing through the internet."
     c "Love Connection?"
@@ -250,8 +251,8 @@ label ignore_him :
     c "I think I'll read the advice from other parents . even though i'm not his parent it should be helpful advice"
     "Charlie finished reading the article and picks up her phone and dials a phone number"
     c "Alex. I'm sorry for ignoring you. i should have listen to you"
-    a "Thank You for changing your mind. But i have something to say I'm homosexual and i like males not females"
-    c "I learned that there's nothing wrong with being homosexual because at the end of it all your still the same alex, my best friend for ever."
+    a "Thank You for changing your mind. THis is rather confusing to me and I'm glad that you accepted that I may be gay"
+    c "I learned that there's nothing wrong with being homosexual because at the end of it all your still the same alex, my best friend forever."
     c " I hope you forgive me for not being able to understand you and be by you side."
     # trying to add sam to the story but things aren't going good >_<
     # note: please revise later
@@ -260,15 +261,21 @@ label ignore_him :
     c "Of course Alex"
     "alex and charlie say goodbye and hang up"
     s "what happened to you. why so gloomy?"
-    c " i ignored Alex today because he told me that he liked males"
+    c "I ignored Alex today because he told me that he liked guys"
     show sam shock
-    s "what's wrong with someone liking the same gender sa themselves"
-    c "I thought it wasn't normal but i understood that it's normal people should be able to love who they love no matter of genders."
+    s "The hell? Why would you do that?"
+    c "I wasn't used to the idea of boys liking boys. But I guess love can transend genders"
     # when you try to make things funny but end up failing
-    s "Glad you understood. Also want to hear a fun fact"
+    s "Well ain't that fan-freaking-tastic!!"
+    show charlie grin
+    c "Yup, I gotta stay woke"
+    s "..."
+    s "Ay, lil sis. Wanna hear a fun fact"
+    show charlie normal
     c "Suurre"
-    s "I'm bisexuaul"
+    s "I'm bisexual"
     c "..."
+    
     # this is terrible
 
 
@@ -277,7 +284,7 @@ label ignore_him :
 
 label secret:
     a "I don't quite understand these feelings yet."
-    a "I should keep it a scret until it starts to make sense"
+    a "I should keep it a secret until it starts to make sense"
     a "What happens if they think my feelings aren't normal. Yep. keeping it a secret is for the best"
     "next morning"
     scene bg school
@@ -294,7 +301,8 @@ label secret:
     "Alex and Charlie enter the living room only to find sam sitting on the couch"
     s "sup guys"
     a and c "hi sam"
-    "alex heart began beating fast"
+    "Alex heart began beating fast"
+    "Alex face began to turn red"
     # Alex thought
     " What's wrong with me? Is it possible that i like sam? - Alex"
     s "Alex are you okay?"
@@ -302,7 +310,24 @@ label secret:
     s "Just making sure that your not sick or anything"
     a "I said I'M FINE"
     s "O..OK"
-    "
+    "sam left and went to his room"
+    c "wow alex, calm the hell down. Did Sam do anything to you?"
+    a "No i'm sorry"
+    c "I'm not the one you should be apologizing to"
+    a "ok. i'll be right back"
+    "alex went in front of sam's room and knock on the door"
+    a "Sam can you open up? I need to tell you something"
+    "..."
+    # you can change the positions of the character since they are always standing and their face expression is the only thing that change.
+    "Alex decided to open the door anyways and saw sam laying in bed
+    "Alex heart was beating faster at the sight of sam"
+    s "Did i say to come in?(cold TONE)"
+    A "no. But i came to apologize for raising my voice at you"
+    s "ok. You can go now"
+    "Alex heart felt hurt"
+    "Alex left sam's room and went to the living room"
+    c "
+    
     
     
     
