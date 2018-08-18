@@ -415,31 +415,31 @@ label say:
     a "we should get to class,people are starring"
     "End of school"
     a"Geez,charlie where are you?"
-    "sam was walking behind charlie"
+    "Sam was walking behind charlie"
     s "She said she had something important to do but she will catch us later."
-    a "what do you mean by us?"
+    a "What do you mean by us?"
     s "She said to wait for her at home she wants to tell you something"
-    a "ok but before we go i must tell you something"
-    s "suuurre"
+    a "Ok, but before we go I must tell you something..."
+    s "Suuurre"
     a " You see..."
     a "umm...I have feelings..."
     s "Don't we all have feelings"
     a "no..yeah... that's not what I meant"
     a " I..I think I li..like y..ou"
     a "My heart it wants to burst out at the sight of you"
-    "sam face began to turn red"
-    sam "..."
+    "Sam face began to turn red."
+    Sam "..."
     a "You don't have to like me back. I need to go"
-    "alex ran away as fast as he could home"
+    "Alex ran away as fast as he could home"
     scene bg bedroom
-    "That was humiliating. he didn't even say a word or stoped me from leaving -alex"
+    "{i}That was humiliating. He didn't even say a word or stoped me from leaving{/i} -Alex"
     scene bg school
-    "What he likes me? But how? -sam"
+    "What he likes me? But how? -Sam"
     c "SSSAAAMMM"
-    "charlie came running to sam"
-    c "hey why are you still here and where's alex"
-    s "I decided to wait for you and he had to leave"
-    c "okay let's go home then"
+    "Charlie came running to Sam"
+    c "Hey, why are you still here and where's Alex?"
+    s "I decided to wait for you and he had to leave."
+    c "Okay, let's go home then."
     
     
     
@@ -466,11 +466,11 @@ label say:
 
 
 label ignore :
-    a "These feelings just happened today, probably tommorow they will be gone"
+    a "These feelings just happened today, probably tommorow they will be gone."
     a "Feelings come and go"
     "Next day"
-    a "Why can't do these feelings grow stronger when i think of him"
-    a "A guy liking a guy is wrong"
+    a "Why can't do these feelings grow stronger when I think of him"
+    a "A guy liking a guy is wrong."
     a " why am i not normal"
     # i don't know what else to write
     menu:
