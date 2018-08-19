@@ -252,6 +252,9 @@ label help:
         "Tell her a lie"
             jump lie
     
+label truth:
+
+label lie:
 
      # need to write smething that connects to end
 
@@ -440,6 +443,30 @@ label say:
     c "Hey, why are you still here and where's Alex?"
     s "I decided to wait for you and he had to leave."
     c "Okay, let's go home then."
+    scene ng living room 
+    "should I tell Alex how i feel-sam"
+    c "what are thinking so much about"
+    s "I have feeling for this guy"
+    show charlie shocked
+    c"A GUY?"
+    s "Yes, But should I tell him I like him back" 
+    c "HE LIKES YOU TOO?"
+    s "YOU know your not that HELPFUL"
+    c "I'm sorry i just didn't know you were um... you know"
+    s "BISEXUAL"
+    c "...yeah..."
+    s "...so anyways what should i do?"
+    c "You should just tell that person. Follow yur heart"
+    s "okay but can i borrow yoour phone?"
+    c "why?"
+    s "Just give it to me"
+    "sam handed her phone to sam and sam dialed someone"
+    "??? - hello charlie"
+    s "Hi Alex. Can you come over i need to tell you something"
+    a "sam?...um..sure"
+    "WHAT THE GUY IS ALEX. HOW DIDN'T I NOTICE BEFORE.-charlie"
+    
+    
     
     
     
