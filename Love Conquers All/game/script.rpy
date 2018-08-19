@@ -464,7 +464,9 @@ label say:
     "??? - hello charlie"
     s "Hi Alex. Can you come over i need to tell you something"
     a "sam?...um..sure"
-    "WHAT THE GUY IS ALEX. HOW DIDN'T I NOTICE BEFORE.-charlie"
+    "WHAT THE GUY IS ALEX. HOW DIDN'T I NOTICE BEFORE -_- .-charlie"
+    "sam hung up the phone"
+   "Is this what LOVE is - charlie"
     
     
     
