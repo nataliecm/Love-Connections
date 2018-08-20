@@ -18,7 +18,7 @@ image bg hallway = "hallway.jpg"
 define a = Character("Alex")
 define c = Character("Charlie")
 define s = Character("Sam")
-define ??? = character("UNKNOWN")
+define u = character("UNKNOWN")
 
 
 # The game starts here.
@@ -280,14 +280,14 @@ label help:
     c "mmmhm"
     c "Don't hide those feelings and don't be afraid to be you. I'll be on the sidelines cheering you on!"
     a "Thank you, Charlie. I knew you were the right person to tell"
-    c "Just be true to your feelings, alright?
+    c "Just be true to your feelings, alright?"
     c "And by the way..."
     menu:
         c "Who is the guy you like?"
     
-        "Tell her the truth:
+        "Tell her the truth":
             jump truth
-        "Tell her a lie"
+        "Tell her a lie":
             jump lie
     
 label lie:
@@ -309,7 +309,7 @@ label lie:
     c "ok see you soon"
     "alex hung up"
     a "should i write him a letter"
-    a "yes this would give me an opportunity":
+    a "yes this would give me an opportunity"
         jump letter
 
 
@@ -364,11 +364,8 @@ label truth:
     "DING DONG, ding dong"
     c "SIT down, i'll go get the door"
     "he's here. act natural -sam"
-    "charlie get the door and lets alex in":
-            jump ending_1
-            
-            
-label ending_1:
+    "charlie get the door and lets alex in"
+    scene
     scene bg kitchen/livingroom
     "Charlie leads Alex to the living room/kitchen"
     "Alex walks to the kitchen/living room and sees Sam sitting down"
@@ -469,10 +466,8 @@ label ignore_him :
     "charlie ran to hug sam tightly"
     c "You would always be my favorite brother. i love you no matter what"
     s "thanks...wait i'm your only brother tho"
-    c "i know... It still counts though!":
-        jump to ending_2
-        
-label ending_2:
+    c "i know... It still counts though!"
+     scene
     "Sometimes in life the only love that should matter is the love that you give to youself"
     "We need to love ourselves before we take the love others offer"
     "WHEN YOU KNOW YOURSELF YOU ARE EMPOWERED.WHEN YOU ACCEPT YOUSELF YOU ARE INVINCIBLE"
@@ -570,7 +565,7 @@ label letter:
     a "yeah. but where is sam?" 
     c "He went to go hang out with his friends"
     "{i}That's perfect now i can sneak the letter to his room{/i} -alex"
-    "alex and charlie arrived to charlie's house
+    "alex and charlie arrived to charlie's house"
     scene bg livingroom
     a "before we start playing video games can i use your bathroom"
     c "yeah sure."
@@ -603,14 +598,12 @@ label letter:
     "alex wrote:"
     "who is this? This isn't funny"
     "???: since when are my feelings a joke"
-    a "this is really creepy" :
-        jump ending_3
-        
- label ending_3:
+    a "this is really creepy" 
+     scene
     "The unknown person started to call"
     "Alex answered the call"
     a "hello. who is this"
-    ???  "hi alex. it's sam"
+    u "hi alex. it's sam"
     "S A M. what? -alex"
     a "um.. what do you want"
     s "what? you're the one who left a love letter on my desk!"
@@ -630,9 +623,20 @@ label letter:
     "Alex decided to answer the call"
     a "hel..."
     s "HOW DARE YOU HANG UP ON ME."
-    s "FIRST YOU SAY THAT YOU LIKE ME THEN YOU HANGE UP"
+    s "FIRST YOU SAY THAT YOU LIKE ME THEN YOU HANG UP"
     s "ARE YOUR FEELING EVEN TRUE"
-    s "BUT FOR A FACT THAT I DO KNOW IS 
+    s "BUT FOR A FACT THAT I DO KNOW IS that i like you alot"
+    a "You do?"
+    s "YES. but i need to know what you feel is true"
+    a "of course it is. why would i lie about that"
+    s "You don't know how happy i was when i read your letter beside the giant prick part"
+    a "Sorry about that i wanted to sound annoymous"
+    a "so now that we know each other's feeling then what?"
+    s "we go to the next level"
+    a "WHAT?"
+    s "i mean we can go on dates to 
+    
+    
     
     
     
@@ -717,8 +721,8 @@ label say:
     "WHAT THE GUY IS ALEX. HOW DIDN'T I NOTICE BEFORE -_- .-charlie"
     "sam hung up the phone"
     "Is this what LOVE is - charlie"
-    c "sssoo... Alex is the guy?
-    s "Y..es. does it bother you?
+    c "sssoo... Alex is the guy?"
+    s "Y..es. does it bother you?"
     c "No. but i'm glad to see you happy"
     "Time Skip"
     "Ding Dong"
@@ -734,10 +738,7 @@ label say:
     a "I have been feeling this way for you since that time i saw you again"
     a "i have been confused about these feeling because i never felt this way before for someone especially a guy"
     "I should tell him. I made him suffer earlier already -sam"
-        jump ending_4
-      
-    
-label ending_4:   
+       scene 
     s "Alex, I like gals."
     a "I'm such an idiot! I knew that this wouldn't work out..."
     s "...{i}aaand{/i} guys"
@@ -780,7 +781,7 @@ label ignore :
             jump elsa
             
             
- label keep_it_in:
+label keep_it_in:
     a "these feelings aren't permanent"
     a "there is no way that i can be gay"
     a "imagine me being gay. that would be terribe"
@@ -805,9 +806,7 @@ label ignore :
     a "want to hold hands"
     c "okay"
     "charlie and sam holded hand to school":
-        label ending_5
-        
-label ending_5:
+        scene
     "after school. charlie and alex went to hangout in the park to celebrate their first day as a couple"
     "should i kiss him. its only natural since were a thing now -charlie"
     "why did she close her eyes? why is she leaning in? -alex"
@@ -830,7 +829,7 @@ label ending_5:
     a "My life's a mess"
     a "I used my best friend for my selfish pursposes"
     a "And i don't like girls"
-    a "who am i really?
+    a "who am i really?"
     "BAD END"
     return
     
