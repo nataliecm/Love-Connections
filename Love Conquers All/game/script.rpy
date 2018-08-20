@@ -748,11 +748,11 @@ label ending_4:
     s "my heart beats fast everytime your near me."
     s "i actually wanted to confess first but you beat me at that"
     s "but Alex would you like to be my boyfriend?"
-    "Is this really happening. Dreams do come true. -alex"
+    "{i}Is this really happening. Dreams do come true.{/i} -alex"
     a "I would love to"
     "alex hugged sam tightly. sam hugged him back"
     
-    "THE END."
+    "GOOD END."
     return
     
     
@@ -831,7 +831,8 @@ label ending_5:
     a "I used my best friend for my selfish pursposes"
     a "And i don't like girls"
     a "who am i really?
-    "THE END"
+    "BAD END"
+    return
     
     
     
