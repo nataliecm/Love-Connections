@@ -11,6 +11,7 @@ image charlie grin = "charlie_grin.png"
 define a = Character("Alex")
 define c = Character("Charlie")
 define s = Character("Sam")
+define ??? = character("UNKNOWN")
 
 
 # The game starts here.
@@ -358,7 +359,7 @@ label ending_1:
     c "Alex please sit down"
     "alex sits down across from sam"
     c "You guys have fun. I'm going to my room"
-    "Both alex and sam nodd"
+    "Both alex and sam nod"
     "charlie goes to her room"
     a "...."
     s "...."
@@ -373,9 +374,11 @@ label ending_1:
     "sam blushes"
     s "I should have asked you sooner"
     a "asked me what"
+    # formal make joke
     s "Alex would you do me the honor and be by my side"
+    
     a "Are you asking me out"
-    s"ye..ah"
+    s "ye..ah"
     a "i would love to"
     "sam leaned in"
     "does he want to kiss.OH MY GOD my frist kiss -alex"
@@ -449,7 +452,7 @@ label ignore_him :
     "charlie ran to hug sam tightly"
     c "You would always be my favorite brother. i love you no matter what"
     s "thanks...wait i'm your only brother tho"
-    c "i know":
+    c "i know... It still counts though!":
         jump to ending_2
         
 label ending_2:
@@ -540,6 +543,70 @@ label letter:
     "Next day"
     a "This letter is cappable of ruinig my life"
     a "But it's all for sam"
+    "alex called charlie"
+    a "hey charlie . do you wanna hang out tommorow after school"
+    c "sure. can't wait"
+    a "ok, cool"
+    "alex hung up"
+    "time skip to tommorow after school"
+    c "Thank god we don't have alot of homework"
+    a "yeah. but where is sam?" 
+    c "He went to go hang out with his friends"
+    "{i}That's perfect now i can sneak the letter to his room{/i} -alex"
+    "alex and charlie arrived to charlie's house
+    scene bg livingroom
+    a "before we start playing video games can i use your bathroom"
+    c "yeah sure."
+    "alex left to go to the bathroom but instead went to sam's room"
+    a "i should just leave it on top of his desk"
+    "alex left the letter of sam's desk and went back to the living room"
+    c "hey that was quick but..."
+    c "are you ready to lose"
+    a "Haha i NEVER lose"
+    "Charlie and alex began playing video games"
+    c "see you lost. i'm the champion"
+    a "WOW it's 8 already" 
+    c "what we took that long playing video games but it was worth it"
+    c "to see me win"
+    a "bye"
+    c "bye see you tommorow, loser"
+    a "Wooow, you're so cruel. But i need to go home now"
+    "alex left charlie's house"
+    scene bg bedroom
+    a "i wonder if he's home already."
+    a "or did he read the letter"
+    "Beep beep"
+    "alex checked his phone"
+    "???: Hi"
+    a "who can this be?"
+    "alex wrote back"
+    "sorry wrong number"
+    "???: i like you too"
+    a "could this be sam no it's probably a prank"
+    "alex wrote:"
+    "who is this? This isn't funny"
+    "???: since when are my feelings a joke"
+    a "this is really creepy" :
+        jump ending_3
+        
+ label ending_3:
+    "The unknown person started to call"
+    "Alex answered the call"
+    a "hello. who is this"
+    ???  "hi alex. it's sam"
+    "S A M. what? -alex"
+    a "um.. what do you want"
+    s "what? you're the one who left a love letter on my desk
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -631,10 +698,10 @@ label say:
     a "I have been feeling this way for you since that time i saw you again"
     a "i have been confused about these feeling because i never felt this way before for someone especially a guy"
     "I should tell him. I made him suffer earlier already -sam"
-        jump ending_3
+        jump ending_4
       
     
-label ending_3:   
+label ending_4:   
     s "Alex, I like gals."
     a "I'm such an idiot! I knew that this wouldn't work out..."
     s "...{i}aaand{/i} guys"
