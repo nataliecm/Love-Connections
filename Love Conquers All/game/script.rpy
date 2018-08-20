@@ -7,6 +7,13 @@ image bg livingroom = "bg_livingroom.jpg"
 image charlie normal = "charlie_normal.png"
 image charlie shock = "charlie_shock.png"
 image charlie grin = "charlie_grin.png"
+image alex annoyed = "alex_annoyed.png"
+image alex happy = "alex_happy.png"
+image alex shock = "alex_shock.png"
+image alex shock2 = "alex_shock2.png"
+image alex sad = "alex_sad.png"
+image alex shock blush2= "alex_shockblush2.png"
+image bg hallway = "hallway.jpg"
 
 define a = Character("Alex")
 define c = Character("Charlie")
@@ -28,6 +35,7 @@ label start:
     # directory.
 
     show alex happy:
+        xzoom 0.35 yzoom 0.35
         xalign 0.0
         yalign 1.0
     show charlie normal:
@@ -57,6 +65,7 @@ label start:
     a "Sure, no problem. Just don't take long."
     hide charlie
     "Alex was waiting around (being bored out of his mind if I must add) until suddenly..."
+    show alex shock2
     "CRAAAASSHHHHH" with vpunch
     show alex shock
     a "The hell was that???"
@@ -69,7 +78,10 @@ label start:
 
 label investigate:
     scene bg hallway
-    show alex worried
+    show alex sad:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0
     "Alex goes to the origin of the sound."
     scene bg roomdoor
     show alex worried
@@ -84,6 +96,10 @@ label investigate:
     scene bg room
     show alex scared
     s "{b}BOO!!{/b}"
+    show alex shock:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0
     a "AAAAAaahhhhhh"
     "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter."
 
@@ -96,7 +112,10 @@ label investigate:
 
     "Alex walked out of the room and back to the living room."
     scene bg livingroom
-    "Alex heart was beating fast."
+    show alex shock blush2:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0"Alex heart was beating fast."
     "He places his hand on his chest."
     a "Must be from the scare earlier."
     show charlie shock:
@@ -105,10 +124,7 @@ label investigate:
         yalign 1.0
     c "What scare?"
     a "Nothing"
-    show charlie normal:
-        xzoom 0.35 yzoom 0.35
-        xalign 1.0
-        yalign 1.0 
+    show charlie normal
     c "O...Okay. By the way, I forgot to tell you that my brother's home but he won't be bothering us."
     show sam happy
     s "I think he knows that already."
