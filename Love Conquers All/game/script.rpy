@@ -634,7 +634,9 @@ label letter:
     a "so now that we know each other's feeling then what?"
     s "we go to the next level"
     a "WHAT?"
-    s "i mean we can go on dates to 
+    s "i mean we can go on dates to get to know each other better before we start to get in a relationship"
+    a "i agree. that sound great"
+    "THE END
     
     
     
@@ -650,9 +652,7 @@ label letter:
     
     
     
-    
-    
-    
+       
     
 label say:
     a "I think  telling him my feelings in person would show him that i really mean it"
