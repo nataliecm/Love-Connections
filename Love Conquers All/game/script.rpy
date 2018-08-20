@@ -55,6 +55,7 @@ label start:
     "{b}BRRRRRRRRIIIIIIIINNNNNGGGG{/b}"
     c "I'll be right back. I need to take this fast."
     a "Sure, no problem. Just don't take long."
+    hide charlie
     "Alex was waiting around (being bored out of his mind if I must add) until suddenly..."
     "CRAAAASSHHHHH" with vpunch
     show alex shock
@@ -381,7 +382,7 @@ label ending_1:
     s "ye..ah"
     a "i would love to"
     "sam leaned in"
-    "does he want to kiss.OH MY GOD my frist kiss -alex"
+    "does he want to kiss.OH MY GOD my first kiss -alex"
     "Alex leaned in as well"
     "THE END"
     
@@ -596,7 +597,26 @@ label letter:
     ???  "hi alex. it's sam"
     "S A M. what? -alex"
     a "um.. what do you want"
-    s "what? you're the one who left a love letter on my desk
+    s "what? you're the one who left a love letter on my desk!"
+    a "wait how did you know it was me"
+    s "first of all your horrible at being annoymous"
+    s "Who writes a love letter in print, i know how your handwriting looks like"
+    s "Also you left the letter in my desk you are the only person who comes to my house and hangout with charlie"
+    s "but i need to know if what you said in the letter is true"
+    a "Well yeah it is true..."
+    a "that your a giant prick"
+    s "I WAS TALKING ABOUT THE FEELINGS PART OF THE LETTER"
+    a " i don't know"
+    "alex hung up the phone"
+    a "Alex your such an idiot"
+    "buzz, BUZZ BUZZ,buzz"
+    "Alex check the caller id it was sam's"
+    "Alex decided to answer the call"
+    a "hel..."
+    s "HOW DARE YOU HANG UP ON ME."
+    s "FIRST YOU SAY THAT YOU LIKE ME THEN YOU HANGE UP"
+    s "ARE YOUR FEELING EVEN TRUE"
+    s "BUT FOR A FACT THAT I DO KNOW IS 
     
     
     
@@ -758,5 +778,47 @@ label ignore :
     "alex ran to charlie"
     a "hey charlie!!"
     c "hi alex. whats up?"
+    a "I have something to ask"
+    c "Ok. im listening"
+    a "Would you want to be my girlfriend"
+    "why all of a sudden. i dont want to ruin our friendship but if i reject him it can be the end of it -charlie"
+    "i shouldn't be using her. this was a bad idea and why did i say it all of a sudden -alex"
+    c "i would like to"
+    "i feel so bad for giving him fake hope -Charlie"
+    "she should have said no. i'm not even her type -alex"
+    a "want to hold hands"
+    c "okay"
+    "charlie and sam holded hand to school":
+        label ending_5
+        
+label ending_5:
+    "after school. charlie and alex went to hangout in the park to celebrate their first day as a couple"
+    "should i kiss him. its only natural since were a thing now -charlie"
+    "why did she close her eyes? why is she leaning in? -alex"
+    "i should lean in for the kiss too - alex"
+    "alex and charlie pecked each others lips fast and backed away from each other"
+    "they opened their eyes to realize this was a mistake"
+    "I felt nothing at all. None of this has meaning. I'm sorry alex. -charlie"
+    "Not even once my heart skipped a beat through the kiss it just felt wrong and i hated it -alex"
+    "Alex started to burst in tears"
+    a "I'm sorry"
+    c "You shouldn't be sorry. i'm the one who gave you false hope that this would work"
+    a "I lied and used you to get rid of feelings i had for someone else"
+    show charlie shocked
+    a "Someone who i can't give my love to."
+    c "who is this someone, alex"
+    a "i can't say i perfer to keep this between me"
+    c "ok. i respect you privacy"
+    a "I need some alone time"
+    "alex left charlie alone"
+    a "My life's a mess"
+    a "I used my best friend for my selfish pursposes"
+    a "And i don't like girls"
+    a "who am i really?
+    "THE END"
+    
+    
+    
+    
     
  
