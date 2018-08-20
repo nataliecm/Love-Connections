@@ -731,7 +731,7 @@ label ignore :
     a "These feelings just happened today, probably tommorow they will be gone."
     a "Feelings come and go"
     "Next day"
-    a "Why can't do these feelings grow stronger when I think of him"
+    a "Why do these feelings grow stronger when I think of him"
     a "A guy liking a guy is wrong."
     a " why am i not normal"
     # i don't know what else to write
@@ -742,3 +742,21 @@ label ignore :
             jump keep_it_in
         "Let it go (like Elsa)":
             jump elsa
+            
+            
+ label keep_it_in:
+    a "these feelings aren't permanent"
+    a "there is no way that i can be gay"
+    a "imagine me being gay. that would be terribe"
+    a "no onewould want to be my friend or my family might not accept me"
+    a "i must get rid of these feelings"
+    a "I MUST FORCE MYSELF TO HAVE FEELINGS FOR A GIRL"
+    a " i should date charlie and forget about sam"
+    "the next day in school"
+    a "where are you charlie"
+    "Alex looked around to looking for charlie and spotted her arriving to school"
+    "alex ran to charlie"
+    a "hey charlie!!"
+    c "hi alex. whats up?"
+    
+ 
