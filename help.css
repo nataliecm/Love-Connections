@@ -16,7 +16,9 @@ h3{
  width:2000px;
 }
 #door{
+  height: 120px;
  width:60px;
+ background-color: #4b7bff;
 }
 #up{
  display: flex;
@@ -65,7 +67,7 @@ a{
     /*background-color: #4CAF50;
     color: white;*/
     padding: 16px;
-    font-size: 16px;
+    /*font-size: 16px;*/
     border: none;
 
 }
@@ -78,7 +80,7 @@ a{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -96,7 +98,5 @@ a{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {
-  /*background-color: #3e8e41;*/
-
   height: 140px;
   width: 120px;}
