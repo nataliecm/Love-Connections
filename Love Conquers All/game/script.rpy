@@ -273,24 +273,120 @@ label help:
             jump lie
     
 label lie:
-a "Some guy that i recently saw in walmart but you don't know him"
-# Not sponsored by walmart. I never given been to walmart.
-c "It almost sound like love at first sight"
-c "what did he look like"
-a "oh. You know tall, great sense of style and great pesonality"
-c "wait how do you know he had a great personality?"
-a "I waaaas just guessing by his apperance"
-c "cool"
-a "Yeah..."
-c "Thank god it's not someone like my brother"
-c "He can be annoying like 99% of the time and his sence of style sucks"
-a "WHAT...I mean why would it be your brother?"
-c "Oh i forgot to tell you turns out my brother is bisexual"
-"could there actually be a chance for me or us - alex"
+    a "Some guy that i recently saw in walmart but you don't know him"
+    # Not sponsored by walmart. I never given been to walmart.
+    c "It almost sound like love at first sight"
+    c "what did he look like"
+    a "oh. You know tall, great sense of style and great pesonality"
+    c "wait how do you know he had a great personality?"
+    a "I waaaas just guessing by his apperance"
+    c "cool"
+    a "Yeah..."
+    c "Thank god it's not someone like my brother"
+    c "He can be annoying like 99% of the time and his sence of style sucks"
+    a "WHAT...I mean why would it be your brother?"
+    c "Oh i forgot to tell you turns out my brother is bisexual"
+    "could there actually be a chance for me or us - alex"
+    a "charlie i need to go. i have simething to do"
+    c "ok see you soon"
+    "alex hung up"
+    a "should i write him a letter"
+    a "yes this would give me an opportunity":
+        jump letter
 
 
 
 label truth:
+    a "Well, It's kind of hard for me to tell"
+    c "Come on Alex you know you can tell me anything.Just let it go"
+    a "it's sam"
+    c "YOU MEAN MY BROTHER SAM. My brother?"
+    a "yeah(sad tone)"
+    c "That's great"
+    a "what?"
+    c "well it turns out my brother is bisexual?"
+    a "so...your not mad"
+    c "Why would i be mad?"
+    a "Becaus ehe's your brother and i'm your best friend"
+    c "well as long as both of you are happy i'm happy"
+    c "Wait i just had a great plan."
+    a "what plan for what"
+    c "its a suprise but come to my house around 7 okay"
+    a "o..okay"
+    "both charlie and alex hung up"
+    "charlie went to sam's room"
+    s "hey have you ever heard of something called knocking"
+    c "would you go to a blind date"
+    s "NO"
+    c "Please not even for your sister"
+    s "..."
+    show charlie sad
+    s "Fine but whose the person"
+    c "My friend..."
+    "when she said her friend my heart started to beat faster because i knew for a fact it was about alex -sam"
+    s "YEAH...i mean i'll do it just for you"
+    c "okay thanks"
+    c "start getting ready you need to be ready by 7"
+    s "okay"
+    "charlie left sam's room"
+    c "This is going to be great"
+    # what scene should this be living room or kitchen
+    "Charlie started stetting up the table and ordered pizza for them to eat"
+    c "The pizza should be fine. It's not my fault that I never learned to cook"
+    # relatable
+    "current tim 6:54"
+    "sam walks to the kitchen/living roon"
+    s "i thought the date was was going to be somewhere prettier and fancier"
+    s "And really PIZZA"
+    c "well sorry i'm on a buget.Someone doesn't give me enough allowence"
+    s "-_-"
+    s "well it's good enough"
+    c "You should appericate my work more. i worked hard to make this possible"
+    "Not really i just had to cover up the table with a table cloth and order pizza but he's getting on my nerves -Charlie"
+    "DING DONG, ding dong"
+    c "SIT down, i'll go get the door"
+    "he's here. act natural -sam"
+    "charlie get the door and lets alex in":
+            jump ending_1
+            
+            
+label ending_1:
+    scene bg kitchen/livingroom
+    "Charlie leads Alex to the living room/kitchen"
+    "Alex walks to the kitchen/living room and sees Sam sitting down"
+    "Is this the plan she had in mind? -Alex"
+    c "Alex please sit down"
+    "alex sits down across from sam"
+    c "You guys have fun. I'm going to my room"
+    "Both alex and sam nodd"
+    "charlie goes to her room"
+    a "...."
+    s "...."
+    a "I'm sorry she dragged you into this"
+    s "I'm actually happy she did"
+    s "I have been waiting for this to happen"
+    show alex shocked
+    a "...what?"
+    s "I wanted to tell you how i felt about you since the day i meet you but i felt that you might not like me back"
+    a "of course i like you back. I thought I was going insane because these feeling were new to me"
+    a "You know your the first person to ever make me feel this way"
+    "sam blushes"
+    s "I should have asked you sooner"
+    a "asked me what"
+    s "Alex would you do me the honor and be by my side"
+    a "Are you asking me out"
+    s"ye..ah"
+    a "i would love to"
+    "sam leaned in"
+    "does he want to kiss.OH MY GOD my frist kiss -alex"
+    "Alex leaned in as well"
+    "THE END"
+    
+    
+    
+    
+    
+    
 
      # need to write smething that connects to end
 
@@ -452,7 +548,7 @@ label letter:
     
     
 label say:
-    a "I think  telling him my feelings in peron would show him that i reaaly mean it"
+    a "I think  telling him my feelings in person would show him that i really mean it"
     a "but what happens if he rejects me or worst makes fun of me"
     a "ALEX STOP BEING SUCH A CHICKEN YOU GOT THIS"
     "Next Morning"
@@ -521,30 +617,44 @@ label say:
     c "sssoo... Alex is the guy?
     s "Y..es. does it bother you?
     c "No. but i'm glad to see you happy"
+    "Time Skip"
+    "Ding Dong"
+    s "Can you go to your room i need to talk to him in private."
+    c "ok."
+    "charlie left to her room"
+    "sam went to open the door and let alex in"
+    a "Hi sam. did something happen to charlie?"
+    s "no. i called you over because i need to talk to you about something important"
+    s "Remember earlier today you confessed to me"
+    a "yeah that was embarrassing"
+    s "NO it wasn't. it was actually pretty brave of you"
+    a "I have been feeling this way for you since that time i saw you again"
+    a "i have been confused about these feeling because i never felt this way before for someone especially a guy"
+    "I should tell him. I made him suffer earlier already -sam"
+        jump ending_3
+      
     
-   
-    
-    
-    
-    
-    
-    
+label ending_3:   
     s "Alex, I like gals."
     a "I'm such an idiot! I knew that this wouldn't work out..."
     s "...{i}aaand{/i} guys"
     s "Kind of like you ;)"
     "Alex's face turns completly red."
-    "Good end."
+    a "Y..you like me?"
+    s "of course i like you. why wouldn't i."
+    s "my heart beats fast everytime your near me."
+    s "i actually wanted to confess first but you beat me at that"
+    s "but Alex would you like to be my boyfriend?"
+    "Is this really happening. Dreams do come true. -alex"
+    a "I would love to"
+    "alex hugged sam tightly. sam hugged him back"
+    
+    "THE END."
     return
     
     
     
-    
-    
-    
-    
-    
-    # i don't know what else to write
+  
 
 
 
