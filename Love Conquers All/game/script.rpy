@@ -229,7 +229,27 @@ label help:
     c "I think I'll read the advice from other parents. It may contain something useful."
     c "I am practically his parent anyway. I woke him up that one day during the exams."
     "..."
-    "Charlie finished reading the article and picks up her phone and dials a phone number"
+    "Charlie finished reading the article"
+    "sam walks in the living room"
+    s "what happened to you. you look tired"
+    c "i was reading an article about the lgbtq+ community andaccept and help the peole who are close to you that are part of that community."
+    c "At fist i wasn't used to the idea of boys liking boys. But I guess love can transend genders. Alex told me he hadfeelings for a guy"
+    # when you try to make things funny but end up failing
+    s "Well ain't that fan-freaking-tastic!!"
+    show charlie grin
+    c "Yup, I gotta stay woke"
+    s "..."
+    s "Ay, lil sis. Wanna hear a fun fact?"
+    show charlie normal
+    c "Suurre"
+    s "I'm bisexual"
+    c "..."
+    c "I gues i'm GLAD you came out."
+    c" but you know i still love you no matter what right"
+    "sam smile brightly"
+    s "thanks"
+    "sam goes back o his room happily"
+    "Charlie picks up her phone and dials alex phone number"
     c "Alex. I'm sorry for not letting you finish earlier and not listening to you. I know it hard for you right now but you can trust me and be by your side."
     "{i}Wow. That article affected me a lot. Haha starting to talk like a grown up{/i} - thought Charlie"
     a "Thank You."
@@ -252,9 +272,25 @@ label help:
         "Tell her a lie"
             jump lie
     
-label truth:
-
 label lie:
+a "Some guy that i recently saw in walmart but you don't know him"
+# Not sponsored by walmart. I never given been to walmart.
+c "It almost sound like love at first sight"
+c "what did he look like"
+a "oh. You know tall, great sense of style and great pesonality"
+c "wait how do you know he had a great personality?"
+a "I waaaas just guessing by his apperance"
+c "cool"
+a "Yeah..."
+c "Thank god it's not someone like my brother"
+c "He can be annoying like 99% of the time and his sence of style sucks"
+a "WHAT...I mean why would it be your brother?"
+c "Oh i forgot to tell you turns out my brother is bisexual"
+"could there actually be a chance for me or us - alex"
+
+
+
+label truth:
 
      # need to write smething that connects to end
 
@@ -313,6 +349,21 @@ label ignore_him :
     c "Suurre"
     s "I'm bisexual"
     c "..."
+    s "I know it may be hard for you to understand but it was hard for me to tell you..."
+    "charlie ran to hug sam tightly"
+    c "You would always be my favorite brother. i love you no matter what"
+    s "thanks...wait i'm your only brother tho"
+    c "i know":
+        jump to ending_2
+        
+label ending_2:
+    "Sometimes in life the only love that should matter is the love that you give to youself"
+    "We need to love ourselves before we take the love others offer"
+    "WHEN YOU KNOW YOURSELF YOU ARE EMPOWERED.WHEN YOU ACCEPT YOUSELF YOU ARE INVINCIBLE"
+    "People tend not to accept themselves because of fear of their family not accepting them but they would eventually understand if their love towards you is strong."
+    "And families stay together with love and respect. Someone's sexuality doesn't make some into a new person"
+    "Instead of pushing other's aside because of their sexuality we should take the chance to understand them. Pushing people aside just harms both sides"
+    "LEARNING TO ACCEPT YOUSELVES IS MORE IMPORTANT THAN MAKING PEOPLE ACCEPT YOU. IT'S HOW YOU SEE YOUSELF THAT REALLY MATTERS"
     
     # this is terrible
 
@@ -466,7 +517,12 @@ label say:
     a "sam?...um..sure"
     "WHAT THE GUY IS ALEX. HOW DIDN'T I NOTICE BEFORE -_- .-charlie"
     "sam hung up the phone"
-   "Is this what LOVE is - charlie"
+    "Is this what LOVE is - charlie"
+    c "sssoo... Alex is the guy?
+    s "Y..es. does it bother you?
+    c "No. but i'm glad to see you happy"
+    
+   
     
     
     
