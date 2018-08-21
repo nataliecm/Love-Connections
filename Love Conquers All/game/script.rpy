@@ -314,7 +314,7 @@ label lie:
     "Alex hung up"
     a "should I write him a letter"
     a "yes this would give me an opportunity"
-        jump letter
+    jump letter
 
 
 
@@ -369,7 +369,6 @@ label truth:
     c "SIT down, i'll go get the door"
     "{i}He's here. Act natural{/i} -Sam"
     "Charlie get the door and lets Alex in"
-    scene
     scene bg livingroom
     "Charlie leads Alex to the living room"
     "Alex walks to the living room and sees Sam sitting down"
@@ -401,7 +400,7 @@ label truth:
     "{i}Does he want to kiss.OH MY GOD my first kiss{/i} -Alex"
     "Alex leaned in as well"
     "THE END"
-        return
+    return
     
     
     
@@ -481,7 +480,7 @@ label ignore_him :
     "Instead of pushing other's aside because of their sexuality we should take the chance to understand them. Pushing people aside just harms both sides"
     "LEARNING TO ACCEPT YOUSELVES IS MORE IMPORTANT THAN MAKING PEOPLE ACCEPT YOU. IT'S HOW YOU SEE YOUSELF THAT REALLY MATTERS"
     "The End"
-        return
+    return
     
     # this is terrible
 
@@ -658,7 +657,7 @@ label letter:
     s "I mean we can go on dates to get to know each other better before we start to get in a relationship"
     a "I agree. That sounds great"
     "THE END"
-     return
+    return
     
     
     
@@ -793,7 +792,7 @@ label say:
     
     "GOOD END."
     return
-    
+
     
     
   
