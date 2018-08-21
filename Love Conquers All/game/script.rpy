@@ -26,7 +26,7 @@ define u = Character("UNKNOWN")
 label start:
 
     # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
+    # beadroom =alex room beadroom_2 =sam's room
     # images directory to show it
     scene bg livingroom
 
@@ -94,7 +94,7 @@ label investigate:
     "No answer."
     "Alex decided to open up the room door anyways."
 
-    scene bg room
+    scene bg bedroom_2
     show alex scared
     s "{b}BOO!!{/b}"
     show alex shock:
