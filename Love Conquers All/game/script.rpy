@@ -401,16 +401,6 @@ label truth:
     "Alex leaned in as well"
     "THE END"
     return
-    
-    
-    
-    
-    
-
-     # need to write smething that connects to end
-
-
-
 
 label ignore_him :
     scene bg bedroom
@@ -481,13 +471,7 @@ label ignore_him :
     "LEARNING TO ACCEPT YOUSELVES IS MORE IMPORTANT THAN MAKING PEOPLE ACCEPT YOU. IT'S HOW YOU SEE YOUSELF THAT REALLY MATTERS"
     "The End"
     return
-    
-    # this is terrible
-
-
-    # need to write smething that connects to end
-
-
+  
 label secret:
     scene bg livingroom
     a "I don't quite understand these feelings yet."
@@ -659,22 +643,6 @@ label letter:
     "THE END"
     return
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-       
-    
 label say:
     scene bg bedroom
     a "I think telling him my feelings in person would show him that I really mean it"
@@ -793,14 +761,6 @@ label say:
     "GOOD END."
     return
 
-    
-    
-  
-
-
-
-
-
 label ignore :
     scene bg bedroom
     a "These feelings just happened today, probably tommorow they will be gone."
@@ -817,8 +777,7 @@ label ignore :
         "Let it go (like Elsa)":
             jump elsa
             
-            
-label keep_it_in:
+label keep_it_in: 
     scene bg bedroom
     show alex sad
     a "These feelings aren't permanent"
