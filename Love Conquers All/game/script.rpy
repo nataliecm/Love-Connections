@@ -18,7 +18,7 @@ image bg hallway = "hallway.jpg"
 define a = Character("Alex")
 define c = Character("Charlie")
 define s = Character("Sam")
-define u = character("UNKNOWN")
+define u = Character("UNKNOWN")
 
 
 # The game starts here.
