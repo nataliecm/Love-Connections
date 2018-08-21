@@ -473,7 +473,6 @@ label ignore_him :
     c "You would always be my favorite brother. I love you no matter what"
     s "thanks...wait I'm your only brother tho"
     c "I know... It still counts though!"
-     scene
     "Sometimes in life the only love that should matter is the love that you give to youself"
     "We need to love ourselves before we take the love others offer"
     "WHEN YOU KNOW YOURSELF YOU ARE EMPOWERED.WHEN YOU ACCEPT YOUSELF YOU ARE INVINCIBLE"
@@ -556,8 +555,8 @@ label secret:
             jump say
             
 label letter:
-scene bg bedroom
-show alex happy
+    scene bg bedroom
+    show alex happy
     "\"Dear Sam,\""
     "\"I've known you for a while now, but recently I've been developing feelings for you.\""
     "\"My heart beats fast that i can't control it. It's got a mind of it's own.\""
@@ -712,7 +711,7 @@ label say:
     "Sam face began to turn red."
     show sam blushing
     Sam "..."
-    a "You don't have to like me back. 
+    a "You don't have to like me back." 
     s "..."
     a "I...I need to go"
     "Alex ran away as fast as he could home"
@@ -804,7 +803,7 @@ label say:
 
 
 label ignore :
-scene bg bedroom
+    scene bg bedroom
     a "These feelings just happened today, probably tommorow they will be gone."
     a "Feelings come and go, right?"
     a "Why are these feelings growing stronger when I think of him"
@@ -884,7 +883,7 @@ label keep_it_in:
     
     
 label Elsa:
-scene bg bedroom
+    scene bg bedroom
     a "I should tell someone about my feelings"
     a "I need to let this go before it kills me inside"
     a "I need to tell someone"
@@ -893,7 +892,7 @@ scene bg bedroom
     a "But who will understand me better?"
     
     
-   menu:
+    menu:
         a "Who should i tell?"
         
         "Tell Sam":
