@@ -131,7 +131,8 @@ label investigate:
     show alex shock blush2:
         xzoom 0.35 yzoom 0.35
         xalign 0.0
-        yalign 1.0"Alex heart was beating fast."
+        yalign 1.0
+    "Alex heart was beating fast."
     "He places his hand on his chest."
     a "Must be from the scare earlier."
     show charlie shock:
