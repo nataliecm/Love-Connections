@@ -323,7 +323,7 @@ label lie:
     c "cool"
     a "Yeah..."
     c "Thank god it's not someone like my brother"
-    c "He can be annoying like 99% of the time and his sense of style sucks"
+    c "He can be annoying like 99 percent of the time and his sense of style sucks"
     a "WHAT...I mean why would it be your brother?"
     c "Oh I forgot to tell you turns out my brother is bisexual"
     "could there actually be a chance for me or us - alex"
