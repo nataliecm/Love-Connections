@@ -469,7 +469,7 @@ label ignore_him :
     c "Yup, I gotta stay woke"
     s "..."
     s "Ay, lil sis. Wanna hear a fun fact"
-    show charlie 
+    show charlie normal
     c "Suurre"
     s "I'm bisexual"
     show charlie shocked
