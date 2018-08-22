@@ -85,7 +85,7 @@ label investigate:
         yalign 1.0
     "Alex goes to the origin of the sound."
     scene bg bedroom_door
-    show alex worried
+    show alex sad
     a "Whose room is this?"
     "Alex knocks on the door."
     "..."
@@ -95,7 +95,7 @@ label investigate:
     "Alex decided to open up the room door anyways."
 
     scene bg bedroom_2
-    show alex scared
+    show alex sad
     s "{b}BOO!!{/b}"
     show alex shock:
         xzoom 0.35 yzoom 0.35
@@ -104,10 +104,10 @@ label investigate:
     a "AAAAAaahhhhhh"
     "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter."
 
-    show sam laughing
+    show sam happy
     s "AHAHAHAHAH"
     s "You should have seen your face"
-    show alex angry
+    show alex annoyed
     a "Shut UP SAM!!"
     hide sam
 
@@ -145,10 +145,10 @@ label investigate:
 
 label stay:
     scene bg livingroom
-    show alex calm
+    show alex shock
     a "Must be the wind"
     "{b}SLAM{/b}" with vpunch
-    show alex scared
+    show alex shock2
     a "What was that?"
     a "Charlie, is that you? This isn't funny"
     show sam upset
@@ -169,7 +169,7 @@ label stay:
     c "Sorry for taking long."
     a "No problem. So, what do you want to do now?"
     c "Play video games? Oh wait, I forgot to tell you that my brother's home but he won't be bothering us."
-    show sam serious
+    show sam normal
     s "I think he knows that already."
     "sam and alex make eye contact"
     "Alex's heart starts beating faster."
@@ -186,7 +186,7 @@ label stay:
 
 label discovery:
 
-    show alex worried
+    show alex shock
 
     a "It makes no sense!!!"
     a "I don't get it!!"
@@ -208,6 +208,7 @@ label discovery:
 
 label tell:
     scene bg bedroom
+    show alex shock
     a "That's it!"
     a "I should probably let someone know about my feelings."
     a "That way, I would have someone to help me figure out whats wrong."
@@ -342,7 +343,7 @@ label truth:
     s "NO"
     c "Please not even for your sister"
     s "..."
-    show charlie sad
+    show charlie shock
     s "Fine but whose the person"
     c "My friend..."
     "when she said her friend my heart started to beat faster because i knew for a fact it was about alex -sam"
@@ -404,7 +405,7 @@ label truth:
 
 label ignore_him :
     scene bg bedroom
-    show alex cry
+    show alex sad
     a "What should I do now she just hung up on me"
     scene bg livingroom
     c "Im sorry alex but I was taught that that's wrong. Everything would have been good if you said you had feeling for a girl not guy"
@@ -493,7 +494,7 @@ label secret:
     s "sup guys"
     a and c "hi sam"
     "Alex face began to turn red"
-    show alex blushing
+    show alex shock blush2
     "{i}What's wrong with me? Is it possible that i like sam?{/i} - Alex"
     s "Alex are you okay?"
     "Sam stood up and went in front of Alex and put his hand on Alex forehead"
@@ -676,7 +677,7 @@ label say:
     a " I..I think I li..like y..ou"
     a "My heart it wants to burst out at the sight of you"
     "Sam face began to turn red."
-    show sam blushing
+    show sam grin
     Sam "..."
     a "You don't have to like me back." 
     s "..."
@@ -689,7 +690,7 @@ label say:
     hide alex
     show sam happy
     "{i}What he likes me? But how?{/i} -Sam"
-    show charlie happy
+    show charlie normal
     c "SSSAAAMMM"
     "Charlie came running to Sam"
     c "Hey, why are you still here and where's Alex?"
@@ -699,12 +700,12 @@ label say:
     "{i}Should I tell Alex how I feel{/i} -sam"
     c "What are thinking so much about"
     s "I have feeling for this guy"
-    show charlie shocked
+    show charlie shock
     c "A GUY?"
     s "Yes, But should I tell him I like him back" 
     c "HE LIKES YOU TOO?"
     s "YOU know your not HELPING AT ALL"
-    show chalrie calm
+    show chalrie normal
     c "I'm sorry i just didn't know you were um... you know"
     s "BISEXUAL"
     c "...yeah..."
@@ -718,7 +719,7 @@ label say:
     "??? - Hi charlie"
     s "Hi Alex. Can you come over I need to tell you something"
     a "SAM?...um..sure"
-    show charlie shocked
+    show charlie shock
     "{i}WHAT THE GUY IS ALEX. HOW DIDN'T I NOTICE BEFORE -_- .{/i} -Charlie"
     "Sam hung up the phone"
     "{i}What alex beat me in getting a boyfriend first.{/i} -Charlie"
@@ -748,7 +749,7 @@ label say:
     s "...{i}aaand{/i} guys"
     s "Kind of like you ;)"
     "Alex's face turns completly red."
-    show alex blushing
+    show alex shock blushing2
     a "Y..you like me?"
     s "Of course I like you. why wouldn't I."
     s "My heart beats fast everytime your near me."
@@ -801,7 +802,7 @@ label keep_it_in:
     show charlie shocked
     "{i}Why all of a sudden. I don't want to ruin our friendship but if I reject him it can be the end of it.{/i} -Charlie"
     "{i}I shouldn't be using her. This was a bad idea and why did I say it all of a sudden.{/i} -Alex"
-    show Charlie happy
+    show Charlie normal
     c "I would like to"
     "{i}I feel so bad for giving him fake hope.{/i} -Charlie"
     "{i}She should have said no. I'm not even her type{/i} -Alex"
