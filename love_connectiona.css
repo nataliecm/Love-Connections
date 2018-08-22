@@ -6,13 +6,16 @@ h1{
 }
 h3{
 color:white;
+font-size: 20px
 }
 h2{
   text-align:center;
   font-family: 'Playfair Display SC', serif;
   color: yellow;
   text-decoration: underline overline;
+  font-size: 35px
 }
+
 p{
   text-align: center;
 }
@@ -43,6 +46,14 @@ p{
   background-clip: text;
 }
 .dropbtn {
+  padding: 0px 10px 0px 10px;
+  font-size: 16px;
+  border: none;
+  mix-blend-mode: multiply;
+  background-color: #d02090;
+  height: 100%;
+}
+.dropbtn {
     /*color: white;*/
     padding: 16px;
     font-size: 16px;
@@ -58,7 +69,7 @@ p{
 .dropdown-content {
     display: none;
     position: absolute;
-    /*background-color: #f1f1f1;*/
+    background-color: #d02090;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
