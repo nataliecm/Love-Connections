@@ -1,5 +1,5 @@
 
-}
+
 h1{
   font-family: 'Creepster', cursive;
   font-size: 35px;
@@ -99,4 +99,8 @@ html{
 #column{
   width:80%;
   font-family: inherit;
+}
+
+a{
+   color: black
 }
