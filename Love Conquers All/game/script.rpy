@@ -12,11 +12,11 @@ image alex shock = "alex_shock.png"
 image alex shock2 = "alex_shock2.png"
 image alex sad = "alex_sad.png"
 image alex shock blush2= "alex_shockblush2.png"
-image sam shock ="sam_shock.png"
-image sam happy = "sam_happy.png"
-image sam upset = "sam_upset.png"
-image sam normal = "sam_normal.png"
-image sam mad = "sam_mad.png"
+image sam shock ="sam_shock.jpg"
+image sam happy = "sam_happy.jpg"
+image sam upset = "sam_upset.jpg"
+image sam normal = "sam_normal.jpg"
+image sam mad = "sam_mad.jpg"
 image bg hallway = "bg_hallway.jpg"
 image bg livingroom = "bg_livingroom.jpg"
 image bg bedroom_door = "bg_bedroom_door.jpg"
@@ -47,17 +47,19 @@ label start:
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
+
+
     # These display lines of dialogue.
     # Might take away narration and just show the actions in the game if possible if not leave narration
     "**WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US!**"
     "**THIS WAS NOT INTENDED TO SOUND LIKE A FANFICTION, BUT WE CAN'T CONTROL HOW THINGS TURN OUT**"
     scene bg livingroom
-        show alex happy:
+    show alex happy:
         xzoom 0.35 yzoom 0.35
         xalign 0.0
         yalign 1.0
     show charlie normal:
-        xzoom 0.35 yzoom 0.35
+        xzoom 0.32 yzoom 0.32
         xalign 1.0
         yalign 1.0
     "It was a regular Saturday afternoon when Alex and Charlie were hanging out at her house."
@@ -133,7 +135,7 @@ label investigate:
     "He places his hand on his chest."
     a "Must be from the scare earlier."
     show charlie shock:
-        xzoom 0.35 yzoom 0.35
+        xzoom 0.32 yzoom 0.32
         xalign 1.0
         yalign 1.0
     c "What scare?"
@@ -176,7 +178,7 @@ label stay:
     # alex thought
     "{i}What's happening? Why am I feeling this way?{/i} - Alex thought"
     show charlie normal:
-        xzoom 0.35 yzoom 0.35
+        xzoom 0.32 yzoom 0.32
         xalign 1.0
         yalign 1.0
     c "Sorry for taking long."
@@ -302,12 +304,12 @@ label help:
     c "And by the way..."
     menu:
         c "Who is the guy you like?"
-    
+
         "Tell her the truth":
             jump truth
         "Tell her a lie":
             jump lie
-    
+
 label lie:
     scene bg bedroom
     a "Some guy that I recently saw in walmart but you don't know him"
@@ -451,7 +453,7 @@ label ignore_him :
     c " I hope you forgive me for not being able to understand you and be by you side."
     # trying to add sam to the story but things aren't going good >_<
     # note: please revise later
-    "sam walks in the living room where charlie is at" 
+    "sam walks in the living room where charlie is at"
     show sam normal
     a "Thanks for understanding but i will only forgive you if we remain friends like before"
     c "Of course Alex"
@@ -486,7 +488,7 @@ label ignore_him :
     "LEARNING TO ACCEPT YOUSELVES IS MORE IMPORTANT THAN MAKING PEOPLE ACCEPT YOU. IT'S HOW YOU SEE YOUSELF THAT REALLY MATTERS"
     "The End"
     return
-  
+
 label secret:
     scene bg livingroom
     a "I don't quite understand these feelings yet."
@@ -503,7 +505,7 @@ label secret:
     c "Okay. Want to hang out at my house today?"
     a "Yep"
     "Time Skip"
-    scene bg living room 
+    scene bg living room
     "Alex and Charlie enter the living room only to find sam sitting on the couch"
     s "sup guys"
     a "hi sam"
@@ -543,8 +545,8 @@ label secret:
     c "That was weird"
     scene bg bedroom
     a "Should I tell sam how I feel, yeah probably that would be for the best"
-    
-   
+
+
     menu:
         a "What should I do?"
 
@@ -552,7 +554,7 @@ label secret:
             jump letter
         "Tell sam how i feel in person":
             jump say
-            
+
 label letter:
     scene bg bedroom
     show alex happy
@@ -579,7 +581,7 @@ label letter:
     "Time Skip to tommorow after school"
     scene bg school
     c "Thank god we don't have alot of homework"
-    a "yeah. but where is sam?" 
+    a "yeah. but where is sam?"
     c "He went to go hang out with his friends"
     "{i}That's perfect now i can sneak the letter to his room{/i} -Alex"
     "Alex and Charlie arrived to Charlie's house"
@@ -597,7 +599,7 @@ label letter:
     "Charlie and Alex began playing video games"
     show charlie happy
     c "see you LOST. I'm the champion"
-    a "WOW it's 8 already" 
+    a "WOW it's 8 already"
     c "what we took that long playing video games but it was worth it..."
     c "To see me win"
     show alex calm
@@ -619,7 +621,7 @@ label letter:
     "alex wrote:"
     "who is this? This isn't funny"
     "???: since when are my feelings a joke"
-    a "This is really creepy" 
+    a "This is really creepy"
     "The unknown person started to call"
     "Alex answered the call"
     a "hello. who is this"
@@ -658,7 +660,7 @@ label letter:
     a "I agree. That sounds great"
     "THE END"
     return
-    
+
 label say:
     scene bg bedroom
     a "I think telling him my feelings in person would show him that I really mean it"
@@ -677,7 +679,7 @@ label say:
     c "Sorry.Probably NEXT TIME HURRY THE HELL UP"
     a "We should get to class, people are starring"
     "End of school day"
-    a "Geez, Charlie where are you?" 
+    a "Geez, Charlie where are you?"
     a "Do you know where is she?"
     "Sam was walking behind Alex"
     s "She said she had something important to do but she will catch us later."
@@ -694,7 +696,7 @@ label say:
     "Sam face began to turn red."
     show sam grin
     s "..."
-    a "You don't have to like me back." 
+    a "You don't have to like me back."
     s "..."
     a "I...I need to go"
     "Alex ran away as fast as he could home"
@@ -711,13 +713,13 @@ label say:
     c "Hey, why are you still here and where's Alex?"
     s "I decided to wait for you and he had to go."
     c "Okay, let's go home then."
-    scene ng living room 
+    scene ng living room
     "{i}Should I tell Alex how I feel{/i} -sam"
     c "What are thinking so much about"
     s "I have feeling for this guy"
     show charlie shock
     c "A GUY?"
-    s "Yes, But should I tell him I like him back" 
+    s "Yes, But should I tell him I like him back"
     c "HE LIKES YOU TOO?"
     s "YOU know your not HELPING AT ALL"
     show charlie normal
@@ -773,7 +775,7 @@ label say:
     "{i}Is this really happening. Dreams do come true.{/i} -Alex"
     a "I would love to"
     "Alex hugged sam tightly. Sam hugged him back"
-    
+
     "GOOD END."
     return
 
@@ -784,16 +786,16 @@ label ignore :
     a "Why are these feelings growing stronger when I think of him"
     a "A guy liking a guy is wrong."
     a " why am I not normal"
-   
+
     menu:
         a "What should I do?"
-        
+
         "Keep it in":
             jump keep_it_in
         "Let it go (like Elsa)":
             jump elsa
-            
-label keep_it_in: 
+
+label keep_it_in:
     scene bg bedroom
     show alex sad
     a "These feelings aren't permanent"
@@ -854,8 +856,8 @@ label keep_it_in:
     a "WHO AM I REALLY?"
     "BAD END"
     return
-    
-    
+
+
 label elsa:
     scene bg bedroom
     a "I should tell someone about my feelings"
@@ -864,17 +866,12 @@ label elsa:
     a "I should tell sam about my feelings for him"
     a "Or should i tell Charlie, well she is my bestfriend"
     a "But who will understand me better?"
-    
-    
+
+
     menu:
         a "Who should i tell?"
-        
+
         "Tell Sam":
             jump say
         "Tell Charlie":
             jump tell
-    
-    
-    
-    
- 
