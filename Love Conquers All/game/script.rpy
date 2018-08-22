@@ -859,7 +859,7 @@ label keep_it_in:
     return
     
     
-label Elsa:
+label elsa:
     scene bg bedroom
     a "I should tell someone about my feelings"
     a "I need to let this go before it kills me inside"
