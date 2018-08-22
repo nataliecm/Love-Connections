@@ -509,7 +509,8 @@ label secret:
     scene bg living room 
     "Alex and Charlie enter the living room only to find sam sitting on the couch"
     s "sup guys"
-    a and c "hi sam"
+    a "hi sam"
+    c "hi sam"
     "Alex face began to turn red"
     show alex shock blush2
     "{i}What's wrong with me? Is it possible that i like sam?{/i} - Alex"
