@@ -47,8 +47,12 @@ label start:
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-
-    show alex happy:
+    # These display lines of dialogue.
+    # Might take away narration and just show the actions in the game if possible if not leave narration
+    "**WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US!**"
+    "**THIS WAS NOT INTENDED TO SOUND LIKE A FANFICTION, BUT WE CAN'T CONTROL HOW THINGS TURN OUT**"
+    scene bg livingroom
+        show alex happy:
         xzoom 0.35 yzoom 0.35
         xalign 0.0
         yalign 1.0
@@ -56,12 +60,6 @@ label start:
         xzoom 0.35 yzoom 0.35
         xalign 1.0
         yalign 1.0
-
-    # These display lines of dialogue.
-    # Might take away narration and just show the actions in the game if possible if not leave narration
-    "**WARNING: BEFORE YOU PROCEED THIS STORY IS REALLY DRAMATIC AND WAS NOT INTENDED TO OFFEND ANYONE. PLEASE DON'T SUE US!**"
-    "**THIS WAS NOT INTENDED TO SOUND LIKE A FANFICTION, BUT WE CAN'T CONTROL HOW THINGS TURN OUT**"
-    scene bg livingroom
     "It was a regular Saturday afternoon when Alex and Charlie were hanging out at her house."
     "Until suddenly..."
     "{i}Brrrrrrrriiiiiing{/i}"
