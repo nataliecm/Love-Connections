@@ -3,7 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-image bg livingroom = "bg_livingroom.jpg"
 image charlie normal = "charlie_normal.png"
 image charlie shock = "charlie_shock.png"
 image charlie grin = "charlie_grin.png"
@@ -13,7 +12,23 @@ image alex shock = "alex_shock.png"
 image alex shock2 = "alex_shock2.png"
 image alex sad = "alex_sad.png"
 image alex shock blush2= "alex_shockblush2.png"
-image bg hallway = "hallway.jpg"
+image sam shock ="sam_shock.jpg"
+image sam happy = "sam_happy.jpg"
+image sam upset = "sam_upset.jpg"
+iamge sam normal = "sam_normal.jpg"
+image sam mad = "sam_mad.jpg"
+image bg hallway = "bg_hallway.jpg"
+image bg livingroom = "bg_livingroom.jpg"
+image bg hallway = "bg_hallway.jpg"
+image bg bedroom_door = "bg_bedroom_door.jpg"
+image bg bedroom_2 = "bg_bedroom_2.jpg"
+image bg bedroom = "bg_bedroom.jpg"
+image bg school = "bg_school.jpg"
+image bg park = "bg_park.jpg"
+
+
+
+
 
 define a = Character("Alex")
 define c = Character("Charlie")
@@ -174,7 +189,7 @@ label stay:
     "sam and alex make eye contact"
     "Alex's heart starts beating faster."
     # Alex thought
-    "What's wrong with me? - Alex thought"
+    "{i}What's wrong with me?{/i} - Alex "
     a "Sorry, but I just remebered that I need something important to do. I guess I'll see you tommorow Charlie."
     show charlie grin
     c "It's fine, Alex. Text you later!!"
@@ -296,6 +311,7 @@ label help:
             jump lie
     
 label lie:
+    scene bg bedroom
     a "Some guy that I recently saw in walmart but you don't know him"
     # Not sponsored by walmart. I never given been to walmart.
     c "It almost sound like love at first sight"
@@ -438,7 +454,7 @@ label ignore_him :
     # trying to add sam to the story but things aren't going good >_<
     # note: please revise later
     "sam walks in the living room where charlie is at" 
-    show sam
+    show sam normal
     a "Thanks for understanding but i will only forgive you if we remain friends like before"
     c "Of course Alex"
     "alex and charlie say goodbye and hang up"
@@ -456,7 +472,7 @@ label ignore_him :
     show charlie 
     c "Suurre"
     s "I'm bisexual"
-    show cahrlie shocked
+    show charlie shocked
     c "..."
     s "I know it may be hard for you to understand but it was hard for me to tell you..."
     "Charlie ran to hug Sam tightly"
@@ -678,7 +694,7 @@ label say:
     a "My heart it wants to burst out at the sight of you"
     "Sam face began to turn red."
     show sam grin
-    Sam "..."
+    s "..."
     a "You don't have to like me back." 
     s "..."
     a "I...I need to go"
@@ -705,7 +721,7 @@ label say:
     s "Yes, But should I tell him I like him back" 
     c "HE LIKES YOU TOO?"
     s "YOU know your not HELPING AT ALL"
-    show chalrie normal
+    show charlie normal
     c "I'm sorry i just didn't know you were um... you know"
     s "BISEXUAL"
     c "...yeah..."
