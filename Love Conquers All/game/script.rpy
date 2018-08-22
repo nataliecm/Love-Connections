@@ -535,7 +535,7 @@ label secret:
     "Alex heart was beating faster at the sight of sam"
     show sam mad
     s "Did I say to come in?(Cold TONE)"
-    A "no. But I came to apologize for raising my voice at you"
+    a "no. But I came to apologize for raising my voice at you"
     s "ok. You can go now"
     "Alex heart felt hurt"
     scene bg livingroom
