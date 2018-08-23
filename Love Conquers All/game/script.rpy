@@ -11,18 +11,28 @@ image alex happy = "alex_happy.png"
 image alex shock = "alex_shock.png"
 image alex shock2 = "alex_shock2.png"
 image alex sad = "alex_sad.png"
-image alex shock blush2= "alex_shockblush2.png"
+image alex shockblush2= "alex_shockblush2.png"
 image sam shock ="sam_shock.png"
 image sam happy = "sam_happy.png"
 image sam upset = "sam_upset.png"
 image sam normal = "sam_normal.png"
-image sam angry = "sam_angry.png"
+image sam mad = "sam_mad.png"
 image bg hallway = "bg_hallway.jpg"
 image bg livingroom = "bg_livingroom.jpg"
 image bg bedroom_2 = "bg_bedroom_2.jpg"
 image bg bedroom = "bg_bedroom.jpg"
 image bg school = "bg_school.jpg"
 image bg park = "bg_park.jpg"
+image sam angry = "sam_angry.png"
+image sam angryblush = "sam_angryblush.png"
+image sam grin = "sam_grin.png"
+image sam grin blush = "sam_grinblush.png"
+image sam normal = "sam_normal.png"
+image sam normalblush = "sam_normalblush.png"
+image sam shock = "sam_shock.png"
+image sam shockblush = "sam_shockblush.png"
+image sam upset ="sam_upset.png"
+image sam upsetblush = "sam_upsetblush.png"
 
 
 
@@ -116,7 +126,10 @@ label investigate:
     a "AAAAAaahhhhhh"
     "Alex turned around quickly only to see a tall slim figure in front of him dying in laughter."
 
-    show sam happy
+    show sam grin:
+        xzoom 0.35 yzoom 0.35
+        xalign 1.0
+        yalign 1.0
     s "AHAHAHAHAH"
     s "You should have seen your face"
     show alex annoyed
@@ -141,7 +154,10 @@ label investigate:
     show charlie normal
     c "O...Okay. By the way, I forgot to tell you that my brother's home. He's back from his trip."
     c "But don't worry he won't be bothering us."
-    show sam happy
+    show sam grin:
+        xzoom 0.35 yzoom 0.35
+        xalign 1.0
+        yalign 1.0
     s "I think he knows that already."
     "Sam and Alex made eye contact"
     "Alex's heart starts beating faster."
@@ -158,13 +174,19 @@ label investigate:
 
 label stay:
     scene bg livingroom
-    show alex shock
+    show alex shock:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0
     a "Must be the wind"
     "{b}SLAM{/b}" with vpunch
     show alex shock2
     a "What was that?"
     a "Charlie, is that you? This isn't funny"
-    show sam upset
+    show sam upset:
+        xzoom 0.35 yzoom 0.35
+        xalign 1.0
+        yalign 1.0
     s "It's not Charlie."
     s "{b}WOW{/b} how could you not remember me."
     s "You know, Charlie doesn't live here by herself."
@@ -221,12 +243,16 @@ label discovery:
 
 label tell:
     scene bg bedroom
-    show alex shock
+    show alex shock:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0
     a "That's it!"
     a "I should probably let someone know about my feelings."
     a "That way, I would have someone to help me figure out whats wrong."
     a "It would also give me a chance figure out who I really am!"
     "Alex grabbed his phone."
+    show alex sad
     a "Hello Charlie, I..I need your help. I'm lost."
     c "How can you be lost don't you remember where you live? Tell me the street.."
     a "No that's not what I meant. I'M CONFUSED WITH MY FEELINGS!!"
@@ -241,6 +267,10 @@ label tell:
     a "Wait..."
     "Charlie hung up."
     scene bg livingroom
+    show charlie normal:
+        xzoom 0.32 yzoom 0.32
+        xalign 1.0
+        yalign 1.0
     c "What should I do? I never had a friend whose gay."
     c "What will others think?"
     c "I don't want them to think that I could be lesbian for having a gay friend."
@@ -256,6 +286,10 @@ label tell:
 
 label help:
     scene bg livingroom
+    show charlie normal:
+        xzoom 0.32 yzoom 0.32
+        xalign 0.5
+        yalign 1.0
     c "I can't leave Alex all alone. I need to be by his side."
     c "But I don't know how to help..."
     c "Well, time to go to the wisest thing I know."
@@ -266,8 +300,16 @@ label help:
     c "I am practically his parent anyway. I woke him up that one day during the exams."
     "..."
     "Charlie finished reading the article"
-    "sam walks in the living room"
+    "sam walks in the livingroom"
+    show sam normal:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0
     s "what happened to you. you look tired"
+    show charlie normal:
+        xzoom 0.32 yzoom 0.32
+        xalign 0.5
+        yalign 1.0
     c "i was reading an article about the lgbtq+ community andaccept and help the peole who are close to you that are part of that community."
     c "At fist i wasn't used to the idea of boys liking boys. But I guess love can transend genders. Alex told me he hadfeelings for a guy"
     # when you try to make things funny but end up failing
