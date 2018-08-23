@@ -399,6 +399,7 @@ label truth:
     a "O..okay"
     "Both Charlie and Alex hung up."
     "Charlie barged into Sam's room"
+    scene bg bedroom_2
     show charlie normal:
         xzoom 0.32 yzoom 0.32
         xalign 1.0
