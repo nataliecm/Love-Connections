@@ -16,7 +16,7 @@ image sam shock ="sam_shock.png"
 image sam happy = "sam_happy.png"
 image sam upset = "sam_upset.png"
 image sam normal = "sam_normal.png"
-image sam mad = "sam_mad.png"
+image sam angry = "sam_angry.png"
 image bg hallway = "bg_hallway.jpg"
 image bg livingroom = "bg_livingroom.jpg"
 image bg bedroom_2 = "bg_bedroom_2.jpg"
@@ -529,7 +529,7 @@ label secret:
     scene bg beadroom_2
     "Alex decided to open the door anyways and saw sam laying in bed"
     "Alex heart was beating faster at the sight of sam"
-    show sam mad
+    show sam angry
     s "Did I say to come in?(Cold TONE)"
     a "no. But I came to apologize for raising my voice at you"
     s "ok. You can go now"
