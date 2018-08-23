@@ -114,7 +114,7 @@ label investigate:
     "Silence"
     a "Whose there? Open up!"
     "No answer."
-    "Alex decided to open up the room door anyways."
+    "Alex decided come in anyway."
 
     scene bg bedroom_2
     show alex sad
@@ -136,7 +136,7 @@ label investigate:
     a "Shut UP SAM!!"
     hide sam
 
-    "Alex walked out of the room and back to the living room."
+    "Alex walked out and went back into the livingroom."
     scene bg livingroom
     show alex shock blush2:
         xzoom 0.35 yzoom 0.35
@@ -352,49 +352,51 @@ label help:
 
 label lie:
     scene bg bedroom
-    a "Some guy that I recently saw in walmart but you don't know him"
-    # Not sponsored by walmart. I never given been to walmart.
+    a "Some guy that I recently saw in Walmart, but you don't know him."
+    "{b}Narrator's note:{/b}This game is not sponsored by Walmart. I never even been to Walmart."
     c "It almost sound like love at first sight"
     c "What did he look like"
     a "Oh. You know tall, great sense of style and great pesonality"
     c "Wait how do you know he had a great personality?"
-    a "I waaaas just guessing by his apperance"
-    c "cool"
+    a "I waaaas just guessing by his appearance."
+    c "Cool"
     a "Yeah..."
     c "Thank god it's not someone like my brother"
-    c "He can be annoying like 99 percent of the time and his sense of style sucks"
+    c "He can be annoying like 99 percent of the time and his sense of style sucks."
+    c "Like, he wears camouflage proudly, but he's never even been to the army!"
     a "WHAT...I mean why would it be your brother?"
-    c "Oh I forgot to tell you turns out my brother is bisexual"
-    "{i}could there actually be a chance for me or us{/i} - alex"
-    a "Charlie I need to go. I have simething to do"
-    c "ok see you soon"
+    c "Oh, I forgot to tell you turns out my brother is bisexual"
+    "{i}Could there actually be a chance for me{/i} - Alex"
+    a "Charlie I need to go. I have something to do"
+    c "Okay, see you soon"
     "Alex hung up"
-    a "should I write him a letter"
-    a "yes this would give me an opportunity"
+    a "Should I write him a letter?"
+    a "Yes, this would give me an opportunity!"
     jump letter
 
 
 
 label truth:
-    a "Well, It's kind of hard for me to tell"
-    c "Come on Alex you know you can tell me anything.Just let it go"
-    a "it's sam"
-    c "YOU MEAN MY BROTHER SAM. My brother?"
-    a "yeah(sad tone)"
+    a "Well, it's kind of hard for me to tell."
+    c "Come on Alex you know you can tell me anything. Just let it go"
+    a "It's Sam."
+    c "SAM!?"
+    c "You mean my older brother Sam?" 
+    a "Yeah."
     c "That's great"
-    a "what?"
-    c "well it turns out my brother is bisexual?"
-    a "so...your not mad"
-    c "Why would i be mad?"
-    a "Because he's your brother and i'm your best friend"
-    c "well as long as both of you are happy i'm happy"
-    c "Wait i just had a great plan."
-    a "what plan for what"
-    c "Its a suprise but come to my house around 7 okay"
-    a "o..okay"
-    "both charlie and alex hung up"
-    "charlie went to sam's room"
-    s "hey have you ever heard of something called knocking"
+    a "What?"
+    c "Well, it turns out my brother is bisexual?"
+    a "So...your not mad?"
+    c "Why would I be mad?"
+    a "Because he's your brother and I'm your best friend."
+    c "As long as both of you are happy, I'm happy"
+    c "Wait, I just thought of a great plan!"
+    a "A plan for what?"
+    c "It's a suprise, but come to my house around 7, okay?"
+    a "O..okay"
+    "Both Charlie and Alex hung up."
+    "Charlie went to Sam's room"
+    s "Hey have you ever heard of something called knocking"
     c "would you go to a blind date"
     s "NO"
     c "Please not even for your sister"
