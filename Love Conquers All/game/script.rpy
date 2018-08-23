@@ -522,7 +522,6 @@ label secret:
     c "I'm not the one you should be apologizing to"
     a "ok. i'll be right back"
     hide charlie
-    scene bg bedroom_door
     "Alex went in front of Sam's room and knocked on the door"
     a "Sam can you open up? I need to tell you something"
     "..."
