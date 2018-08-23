@@ -299,19 +299,20 @@ label help:
     c "I think I'll read the advice from other parents. It may contain something useful."
     c "I am practically his parent anyway. I woke him up that one day during the exams."
     "..."
-    "Charlie finished reading the article"
-    "sam walks in the livingroom"
+    "Just as soon as Charlie finished the article, Sma walked in the room."
     show sam normal:
         xzoom 0.35 yzoom 0.35
         xalign 0.0
         yalign 1.0
-    s "what happened to you. you look tired"
+    s "What happened to you? You look tired."
     show charlie normal:
         xzoom 0.32 yzoom 0.32
         xalign 0.5
         yalign 1.0
-    c "i was reading an article about the lgbtq+ community andaccept and help the peole who are close to you that are part of that community."
-    c "At fist i wasn't used to the idea of boys liking boys. But I guess love can transend genders. Alex told me he hadfeelings for a guy"
+    c "I was reading an article about the lgbtq+ community that said to accept and help your friends and family even if they are queer."
+    c "At first, I wasn't used to the idea of boys liking boys, but I guess love can transend genders." 
+    c "Today, Alex told me he had feelings for a guy, but I wasn't sure what to do. Instead of immediately supporting him, I hesitated."
+    c "I refuse to do anything like that ever again."
     # when you try to make things funny but end up failing
     s "Well ain't that fan-freaking-tastic!!"
     show charlie grin
@@ -320,12 +321,14 @@ label help:
     s "Ay, lil sis. Wanna hear a fun fact?"
     show charlie normal
     c "Suurre"
+    show sam grin
     s "I'm bisexual"
+    show sam normal
     c "..."
-    c "I gues i'm GLAD you came out."
-    c" but you know i still love you no matter what right"
-    "sam smile brightly"
-    s "thanks"
+    c "I guess I'm GLAD you came out."
+    c "But you know I still love you no matter what, right?"
+    show sam grin
+    s "Thanks"
     "sam goes back o his room happily"
     "Charlie picks up her phone and dials alex phone number"
     c "Alex. I'm sorry for not letting you finish earlier and not listening to you. I know it hard for you right now but you can trust me and be by your side."
@@ -395,67 +398,124 @@ label truth:
     c "It's a suprise, but come to my house around 7, okay?"
     a "O..okay"
     "Both Charlie and Alex hung up."
-    "Charlie went to Sam's room"
-    s "Hey have you ever heard of something called knocking"
-    c "would you go to a blind date"
+    "Charlie barged into Sam's room"
+    show charlie normal:
+        xzoom 0.32 yzoom 0.32
+        xalign 1.0
+        yalign 1.0
+    image sam flipup= im.Flip("sam_upset.png", horizontal=True)
+    show sam flipup:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0
+    s "Hey, have you ever heard of this newfangled technique called knocking? You should freaking try it next time"
+    "Charlie ignored his sass and continued"
+    show charlie grin
+    c "Would you go on a blind date?"
     s "NO"
-    c "Please not even for your sister"
+    c "Pleeeeeeeeeease?"
+    image sam flipang= im.Flip("sam_angry.png", horizontal=True)
+    show sam flipang
+    s "Noooooooooooooo!"
+    c "C'mooon! Not even for your sister?"
     s "..."
+    show sam flip
     show charlie shock
-    s "Fine but whose the person"
+    s "Fine but who is the person?"
     c "My friend..."
-    "{i}when she said her friend my heart started to beat faster because i knew for a fact it was about alex{/i} -sam"
-    s "YEAH...I mean i'll do it just for you"
-    c "okay thanks"
-    c "start getting ready you need to be ready by 7"
-    s "okay"
-    "charlie left sam's room"
+    "{i}She has to be talking about Alex!{/i} -Sam"
+    image sam flipgrinblush= im.Flip("sam_grinblush.png", horizontal=True)
+    show sam flipgrinblush
+    s "YEAH OF COURSE I WILL"
+    show charlie grin
+    image sam flipshockblush= im.Flip("sam_shockblush.png", horizontal=True)
+    show sam flipshockblush
+    s "...."
+    s "....I mean...."
+    image sam flipupsetblush= im.Flip("sam_upsetblush.png", horizontal=True)
+    show sam flipupsetblush
+    s "Sure, whatever. I'll do it for you."
+    show charlie normal
+    c "Okay, thanks Big bro!!"
+    c "Start getting ready! You need to be done by 7"
+    s "I'm ready when I'm ready."
+    s "I did what you wanted, not get out of my room"
+    "Charlie left the room happily"
     c "This is going to be great"
-    # what scene should this be living room or kitchen
+    scene bg livingroom
+    show charlie normal:
+        xzoom 0.32 yzoom 0.32
+        xalign 1.0
+        yalign 1.0
     "Charlie started stetting up the table and ordered pizza for them to eat"
     c "The pizza should be fine. It's not my fault that I never learned to cook"
-    # relatable
-    "Current tim 6:54"
-    "Sam walks to the kitchen/living roon"
-    s "i thought the date was was going to be somewhere prettier and fancier"
+    "{b}Narrator's note:{/b} Relatable."
+    "Current time: 6:54"
+    "Sam walks to the kitchen/living room"
+    show sam flipup:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0
+    s "I thought the date was was going to be somewhere prettier and fancier"
     s "And really PIZZA"
-    c "Well sorry I'm on a buget.Someone doesn't give me enough allowence"
+    c "I'm hella poor. {i}Someone{/i} doesn't give {i}me{/i} enough allowence"
     s "-_-"
-    s "well it's good enough"
-    c "You should appericate my work more. i worked hard to make this possible"
+    s "Well, it's good enough"
+    show charlie grin
+    c "You should appericate hard work! It took my blood, sweat, {i}and{/i} tears to make this happen."
     "{i}Not really i just had to cover up the table with a table cloth and order pizza but he's getting on my nerves{/i} -Charlie"
     "DING DONG, ding dong"
-    c "SIT down, i'll go get the door"
+    show charlie normal
+    c "SIT DOWN! I'll go get the door"
     "{i}He's here. Act natural{/i} -Sam"
-    "Charlie get the door and lets Alex in"
-    scene bg livingroom
-    "Charlie leads Alex to the living room"
+    hide sam
+    "Charlie got the door and let Alex in"
+    "Charlie leads Alex to the livingroom"
     "Alex walks to the living room and sees Sam sitting down"
     "{i}Is this the plan she had in mind?{/i} -Alex"
     c "Alex please sit down"
-    "Alex sits down across from sam"
-    c "You guys have fun. I'm going to my room"
-    "Both Alex and Sam nod"
-    "Charlie goes to her room"
+    "Alex sits down across from Sam"
+    c "You guys have fun. I'm going to my room."
+    c "Imma put my headphones on, so do whatever you want. *{i}wink wink{/i}*"
+    "Both of the guys nod and Charlie goes to her room"
+    hide charlie
+    show sam upset:
+        xzoom 0.35 yzoom 0.35
+        xalign 1.0
+        yalign 1.0
     a "...."
     s "...."
+    a "...."
+    s "...."
+    "{i}This is way too awkward. Someone has to break the silence{/i} -Alex"
+    show alex sadblush:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0
     a "I'm sorry she dragged you into this"
     s "I'm actually happy she did"
+    show alex shock2
+    show sam grin
     s "I have been waiting for this to happen"
-    show alex shocked
+    show alex shockblush2
     a "...what?"
     s "I wanted to tell you how I felt about you since the day I meet you but I felt that you might not like me back"
     a "Of course I like you back. I thought I was going insane because these feeling were new to me"
     a "You know your the first person to ever make me feel this way"
-    "sam blushes"
-    s "I should have asked you sooner"
-    a "asked me what"
+    show sam grinblush
+    s "I should have asked you sooner..."
+    a "Ask me what?"
     # formal make joke
+    show sam normalblush
     s "Alex would you want to be with me?"
     a "Are you asking me out"
+    show sam grinblush
     s "ye..ah"
+    show alex grinblush
     a "I would love to"
+    show sam normal
     "Sam leaned in"
+    show alex shockblush
     "{i}Does he want to kiss.OH MY GOD my first kiss{/i} -Alex"
     "Alex leaned in as well"
     "THE END"
@@ -463,7 +523,10 @@ label truth:
 
 label ignore_him :
     scene bg bedroom
-    show alex sad
+    show alex cry:
+        xzoom 0.35 yzoom 0.35
+        xalign 0.0
+        yalign 1.0
     a "What should I do now she just hung up on me"
     scene bg livingroom
     c "Im sorry alex but I was taught that that's wrong. Everything would have been good if you said you had feeling for a girl not guy"
