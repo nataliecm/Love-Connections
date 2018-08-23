@@ -19,7 +19,6 @@ image sam normal = "sam_normal.jpg"
 image sam mad = "sam_mad.jpg"
 image bg hallway = "bg_hallway.jpg"
 image bg livingroom = "bg_livingroom.jpg"
-image bg bedroom_door = "bg_bedroom_door.jpg"
 image bg bedroom_2 = "bg_bedroom_2.jpg"
 image bg bedroom = "bg_bedroom.jpg"
 image bg school = "bg_school.jpg"
@@ -98,7 +97,6 @@ label investigate:
         xalign 0.0
         yalign 1.0
     "Alex goes to the origin of the sound."
-    scene bg bedroom_door
     show alex sad
     a "Whose room is this?"
     "Alex knocks on the door."
@@ -242,7 +240,7 @@ label tell:
     c "I'm sorry, Alex, but I need to go."
     a "Wait..."
     "Charlie hung up."
-    scene bg living room
+    scene bg livingroom
     c "What should I do? I never had a friend whose gay."
     c "What will others think?"
     c "I don't want them to think that I could be lesbian for having a gay friend."
@@ -713,7 +711,7 @@ label say:
     c "Hey, why are you still here and where's Alex?"
     s "I decided to wait for you and he had to go."
     c "Okay, let's go home then."
-    scene ng living room
+    scene bg living room
     "{i}Should I tell Alex how I feel{/i} -sam"
     c "What are thinking so much about"
     s "I have feeling for this guy"
