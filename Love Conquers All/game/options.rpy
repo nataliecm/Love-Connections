@@ -151,7 +151,7 @@ define config.save_directory = "LoveConquersAll-1534272187"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/window_icon.jpg"
 
 
 ## Build configuration #########################################################
